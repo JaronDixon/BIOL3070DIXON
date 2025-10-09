@@ -73,7 +73,17 @@ If house finches are acting as important amplifying hosts, we predict that trapp
 # METHODS
 Samples were collected from SLC Utah, then were processed by extracting DNA, performing PCR, MinION sequencing, BLASTn searching the nucleotide sequence obtained. Once all of this data was obtained, the analysis was performed to look for any statistical differences.
 
-## first analysis
+##Statistical Analyses
+
+To assess whether House Finch blood meals were associated with WNV detection, we ran generalized linear models (GLMs).
+The first model (glm1) used a binomial family to test whether the presence or absence of WNV-positive mosquito pools (loc_positives, a binary variable) was predicted by the number of House Finch blood meals (host_House_finch).
+The second model (glm2) tested whether the rate of WNV-positive pools (loc_rate, a continuous variable) increased with higher counts of House Finch blood meals using a Gaussian family.
+
+Statistical significance was assessed using the p-values from the model summaries, and effect direction was determined by the sign of the regression coefficients.
+All analyses were performed in R (version 4.3.1) using the glm() function from base R.
+
+## Analysis 1
+```{r H bar plots}
 ## import counts_matrix: data.frame with column 'loc_positives' (0/1) and host columns 'host_*'
 counts_matrix <- read.csv("./bloodmeal_plusWNV_for_BIOL3070.csv")
 
@@ -160,57 +170,8 @@ barplot(height = counts1,
         xlim = xlim_use)
 ```
 
-## Second analysis/plot
-``` 
-library(dplyr)
-```
-``` 
-library(tidyr)
-library(ggplot2)
-
-hm <- counts_matrix %>%
-  filter(!is.na(long), !is.na(lat)) %>%
-  transmute(
-    long, lat,
-    `WNV-positive pools (rate)` = loc_rate,
-    `House finch blood meals`   = host_House_finch
-  ) %>%
-  pivot_longer(-c(long, lat), names_to = "metric", values_to = "value") %>%
-  mutate(value = ifelse(is.na(value), 0, value))
-
-# plot extent (a small pad around data)
-xpad <- diff(range(hm$long))*0.05
-ypad <- diff(range(hm$lat))*0.05
-xlim <- range(hm$long) + c(-xpad, xpad)
-ylim <- range(hm$lat) + c(-ypad, ypad)
-
-ggplot(hm, aes(long, lat)) +
-  borders("state", regions = "utah", colour = "grey75", fill = NA) +
-  # KDE hotspot, weighted by value
-  stat_density_2d_filled(
-    aes(weight = value, fill = after_stat(level)),
-    contour_var = "ndensity", geom = "polygon",
-    bins = 12, alpha = 0.9, adjust = 0.8
-  ) +
-  # optional faint contours
-  stat_density_2d(
-    aes(weight = value, color = after_stat(level)),
-    contour_var = "ndensity", bins = 12, linewidth = 0.15, show.legend = FALSE
-  ) +
-  # show sites lightly on top
-  geom_point(aes(size = pmax(value, 0.0001)), alpha = 0.5, shape = 21, stroke = 0.2,
-             fill = NA, color = "grey30", show.legend = FALSE) +
-  coord_quickmap(xlim = xlim, ylim = ylim) +
-  facet_wrap(~ metric, nrow = 1) +
-  scale_fill_viridis_d(option = "C", direction = -1, name = "Hotspot") +
-  guides(color = "none") +
-  theme_minimal() +
-  labs(x = NULL, y = NULL)
-```
-
-## Anaylsis 3
-#glm with house finch alone against binary +/_
-``` r
+## Anaylsis 2
+``` {r glm1 analysis}
 #glm with house finch alone against binary +/_
 glm1 <- glm(loc_positives ~ host_House_finch,
             data = counts_matrix,
@@ -218,7 +179,7 @@ glm1 <- glm(loc_positives ~ host_House_finch,
 summary(glm1)
 ```
 
-``` r
+``` {r glm2 analysis}
 #glm with house-finch alone against positivity rate
 glm2 <- glm(loc_rate ~ host_House_finch,
             data = counts_matrix)
@@ -235,13 +196,13 @@ There are some limits to our study. Bloodmeal data only tells us what birds mosq
 
 Understanding which birds are most important for transmission helps explain how WNV persists in cities and can guide future mosquito control and public health efforts.
 
-## Interpretation - fill in analysis
+## Interpretation 1
 
 The bloodmeal results show that House Finches were a frequent host for mosquitoes in Salt Lake City. Locations with more finch blood meals also had higher rates of WNV-positive mosquito pools, suggesting that House Finches may be an important amplifying host. This matches our hypothesis.
 
 Other bird species, such as House Sparrows, Robins, and Starlings, were also fed on and may contribute to WNV spread, but the link was not as strong as with House Finches. Together, this points to House Finches being a key species in maintaining local WNV transmission.
 
-## Interpretation - fill in analysis/plot
+## Interpretation 2
 
 The hotspot maps showed overlap between areas with many WNV-positive mosquito pools and areas with high numbers of House Finch blood meals. This spatial relationship suggests that finch–mosquito interactions may help drive local WNV hotspots. While other birds were present, House Finches stood out as having the clearest spatial link to virus activity.
 
