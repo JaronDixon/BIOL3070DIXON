@@ -1,0 +1,91 @@
+---
+title: "Individual Portfolio"
+author: "Jaron Dixon"
+date: "`r Sys.Date()`"
+output:
+  github_document: 
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ABSTRACT
+
+
+# BACKGROUND
+
+
+# STUDY QUESTION and HYPOTHESIS
+
+
+## Questions  
+
+Does the education level of people affect the frequency/likelihood of getting a heart attack due to stress? 
+
+## Hypothesis 
+
+If the person has a higher education level, then they are likely to be more prone to having a heart attack due to higher amounts of stress.
+  
+## Prediction
+
+
+# Possible Visualization Method
+
+What we have found out for our statistical tests is a few things. Since we are comparing multiple groups, here are the types of tests that we can do for each one:
+
+Education level and Stress: ANOVA test
+
+Education Level and Heart Attack:  Chi Squared Test of Independence
+
+Stress Levels and Heart Attack: T-Test
+
+Education Level, Stress Levels, and Heart Attack: Binary Logistic Regression
+
+## Assignment 10 Figure
+
+```{r eval=FALSE}
+library(ggplot2)
+
+heart_data <- read.csv("heart_attack_dataset_new.csv")
+
+ggplot(heart_data, aes(x = EducationLevel, fill = Outcome)) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Heart Attack Outcomes by Education Level",
+    x = "Education Level",
+    y = "Count of Individuals",
+    fill = "Outcome"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    legend.position = "right"
+  )
+
+```
+
+
+
+# METHODS
+
+
+## Analysis 1
+
+
+# DISCUSSION
+
+
+## Interpretation 1
+
+
+# CONCLUSION
+
+
+# REFERENCES     
+
+1. Ankit. (2025). Heart Attack Prediction in United States [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/10806451
+
+
+

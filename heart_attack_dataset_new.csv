@@ -1,0 +1,1000 @@
+StressLevel,EducationLevel,Outcome
+1,High School,No Heart Attack
+6,College,No Heart Attack
+3,College,Heart Attack
+3,High School,No Heart Attack
+1,High School,Heart Attack
+4,High School,Heart Attack
+5,Postgraduate,No Heart Attack
+5,College,No Heart Attack
+2,Postgraduate,Heart Attack
+3,High School,No Heart Attack
+9,High School,Heart Attack
+2,High School,No Heart Attack
+4,High School,Heart Attack
+8,Postgraduate,No Heart Attack
+9,High School,No Heart Attack
+3,High School,No Heart Attack
+2,College,No Heart Attack
+4,High School,No Heart Attack
+4,High School,Heart Attack
+8,College,Heart Attack
+6,College,Heart Attack
+1,High School,Heart Attack
+4,Postgraduate,No Heart Attack
+6,College,Heart Attack
+8,College,Heart Attack
+7,Postgraduate,No Heart Attack
+3,Postgraduate,No Heart Attack
+5,College,Heart Attack
+4,College,No Heart Attack
+9,High School,No Heart Attack
+7,High School,No Heart Attack
+4,High School,Heart Attack
+9,College,No Heart Attack
+3,High School,No Heart Attack
+6,Postgraduate,No Heart Attack
+5,High School,Heart Attack
+8,Postgraduate,No Heart Attack
+2,High School,No Heart Attack
+4,College,Heart Attack
+3,College,No Heart Attack
+5,College,No Heart Attack
+4,College,Heart Attack
+9,High School,Heart Attack
+3,High School,Heart Attack
+8,College,Heart Attack
+2,Postgraduate,Heart Attack
+4,High School,Heart Attack
+7,College,Heart Attack
+7,College,Heart Attack
+6,College,No Heart Attack
+6,High School,Heart Attack
+4,College,No Heart Attack
+6,College,Heart Attack
+1,High School,No Heart Attack
+6,Postgraduate,Heart Attack
+8,High School,Heart Attack
+9,High School,No Heart Attack
+4,College,Heart Attack
+8,College,No Heart Attack
+4,Postgraduate,No Heart Attack
+4,College,No Heart Attack
+1,Postgraduate,Heart Attack
+3,Postgraduate,Heart Attack
+4,College,Heart Attack
+7,Postgraduate,Heart Attack
+5,College,Heart Attack
+4,High School,Heart Attack
+2,High School,No Heart Attack
+6,Postgraduate,No Heart Attack
+6,Postgraduate,Heart Attack
+3,High School,No Heart Attack
+3,High School,Heart Attack
+3,Postgraduate,No Heart Attack
+8,High School,No Heart Attack
+2,High School,Heart Attack
+9,High School,Heart Attack
+3,College,No Heart Attack
+8,College,No Heart Attack
+8,Postgraduate,No Heart Attack
+1,Postgraduate,No Heart Attack
+1,High School,No Heart Attack
+5,High School,No Heart Attack
+1,College,Heart Attack
+6,Postgraduate,No Heart Attack
+3,High School,No Heart Attack
+5,College,No Heart Attack
+9,College,Heart Attack
+3,High School,Heart Attack
+7,High School,Heart Attack
+7,College,Heart Attack
+4,Postgraduate,No Heart Attack
+8,Postgraduate,No Heart Attack
+9,High School,No Heart Attack
+6,High School,No Heart Attack
+1,Postgraduate,No Heart Attack
+1,Postgraduate,Heart Attack
+5,High School,Heart Attack
+8,Postgraduate,No Heart Attack
+5,College,No Heart Attack
+8,High School,Heart Attack
+1,College,No Heart Attack
+3,High School,No Heart Attack
+4,Postgraduate,Heart Attack
+2,Postgraduate,No Heart Attack
+7,High School,Heart Attack
+9,Postgraduate,No Heart Attack
+8,College,No Heart Attack
+6,High School,No Heart Attack
+2,College,No Heart Attack
+8,High School,No Heart Attack
+6,High School,No Heart Attack
+7,High School,Heart Attack
+9,College,No Heart Attack
+7,College,No Heart Attack
+3,High School,No Heart Attack
+3,Postgraduate,Heart Attack
+9,College,No Heart Attack
+4,Postgraduate,Heart Attack
+4,Postgraduate,No Heart Attack
+9,High School,Heart Attack
+5,High School,Heart Attack
+3,College,No Heart Attack
+2,High School,Heart Attack
+2,College,No Heart Attack
+4,College,Heart Attack
+2,High School,No Heart Attack
+9,High School,Heart Attack
+3,Postgraduate,No Heart Attack
+3,High School,Heart Attack
+6,College,No Heart Attack
+2,High School,No Heart Attack
+6,High School,No Heart Attack
+5,Postgraduate,Heart Attack
+5,High School,No Heart Attack
+3,College,No Heart Attack
+4,College,Heart Attack
+9,Postgraduate,Heart Attack
+7,Postgraduate,Heart Attack
+4,High School,Heart Attack
+9,High School,Heart Attack
+5,Postgraduate,Heart Attack
+3,College,No Heart Attack
+1,Postgraduate,No Heart Attack
+4,Postgraduate,Heart Attack
+5,Postgraduate,No Heart Attack
+6,Postgraduate,Heart Attack
+6,High School,No Heart Attack
+7,High School,No Heart Attack
+6,Postgraduate,No Heart Attack
+4,College,No Heart Attack
+6,High School,No Heart Attack
+5,High School,Heart Attack
+1,College,Heart Attack
+6,Postgraduate,Heart Attack
+1,High School,No Heart Attack
+3,College,No Heart Attack
+8,College,No Heart Attack
+1,High School,No Heart Attack
+9,Postgraduate,No Heart Attack
+8,Postgraduate,Heart Attack
+2,High School,Heart Attack
+9,High School,Heart Attack
+4,Postgraduate,Heart Attack
+6,Postgraduate,No Heart Attack
+2,High School,Heart Attack
+1,High School,Heart Attack
+2,High School,No Heart Attack
+3,College,No Heart Attack
+6,High School,No Heart Attack
+5,Postgraduate,No Heart Attack
+5,High School,Heart Attack
+6,Postgraduate,Heart Attack
+4,College,Heart Attack
+4,College,No Heart Attack
+3,High School,No Heart Attack
+2,Postgraduate,Heart Attack
+7,Postgraduate,Heart Attack
+3,High School,No Heart Attack
+3,High School,Heart Attack
+2,College,No Heart Attack
+4,College,No Heart Attack
+2,Postgraduate,Heart Attack
+8,Postgraduate,Heart Attack
+1,College,Heart Attack
+2,College,Heart Attack
+1,College,Heart Attack
+3,Postgraduate,No Heart Attack
+8,Postgraduate,Heart Attack
+8,College,Heart Attack
+7,High School,Heart Attack
+4,College,Heart Attack
+5,College,Heart Attack
+3,High School,Heart Attack
+5,College,Heart Attack
+2,College,Heart Attack
+1,Postgraduate,Heart Attack
+3,Postgraduate,Heart Attack
+3,College,No Heart Attack
+9,Postgraduate,No Heart Attack
+9,College,Heart Attack
+5,College,Heart Attack
+8,College,No Heart Attack
+4,High School,No Heart Attack
+8,High School,Heart Attack
+4,High School,Heart Attack
+9,Postgraduate,No Heart Attack
+4,High School,Heart Attack
+6,High School,Heart Attack
+1,College,Heart Attack
+5,High School,Heart Attack
+3,College,Heart Attack
+1,Postgraduate,No Heart Attack
+1,College,No Heart Attack
+5,College,Heart Attack
+1,Postgraduate,No Heart Attack
+7,Postgraduate,Heart Attack
+4,High School,Heart Attack
+7,College,Heart Attack
+5,Postgraduate,Heart Attack
+7,College,Heart Attack
+5,High School,Heart Attack
+7,College,No Heart Attack
+7,College,No Heart Attack
+9,College,No Heart Attack
+1,College,Heart Attack
+9,Postgraduate,No Heart Attack
+2,Postgraduate,Heart Attack
+5,High School,No Heart Attack
+1,High School,Heart Attack
+6,High School,No Heart Attack
+3,High School,Heart Attack
+4,Postgraduate,Heart Attack
+4,High School,No Heart Attack
+3,Postgraduate,Heart Attack
+9,High School,No Heart Attack
+4,College,Heart Attack
+5,College,Heart Attack
+3,College,Heart Attack
+1,High School,No Heart Attack
+6,Postgraduate,Heart Attack
+4,High School,No Heart Attack
+6,College,Heart Attack
+1,Postgraduate,Heart Attack
+8,High School,No Heart Attack
+3,Postgraduate,No Heart Attack
+8,Postgraduate,No Heart Attack
+1,Postgraduate,No Heart Attack
+8,High School,No Heart Attack
+3,College,Heart Attack
+1,College,Heart Attack
+9,Postgraduate,No Heart Attack
+5,Postgraduate,Heart Attack
+4,Postgraduate,Heart Attack
+7,High School,No Heart Attack
+9,College,Heart Attack
+2,College,No Heart Attack
+6,College,Heart Attack
+3,Postgraduate,Heart Attack
+1,Postgraduate,Heart Attack
+9,High School,Heart Attack
+6,College,No Heart Attack
+3,Postgraduate,No Heart Attack
+3,High School,Heart Attack
+1,High School,Heart Attack
+8,Postgraduate,Heart Attack
+1,Postgraduate,Heart Attack
+4,High School,No Heart Attack
+1,High School,No Heart Attack
+3,High School,No Heart Attack
+9,Postgraduate,Heart Attack
+9,Postgraduate,No Heart Attack
+9,College,Heart Attack
+7,College,No Heart Attack
+4,Postgraduate,Heart Attack
+1,Postgraduate,Heart Attack
+9,Postgraduate,No Heart Attack
+3,High School,Heart Attack
+3,College,No Heart Attack
+5,Postgraduate,Heart Attack
+5,College,No Heart Attack
+3,Postgraduate,Heart Attack
+4,High School,Heart Attack
+7,College,No Heart Attack
+7,College,Heart Attack
+8,College,Heart Attack
+2,Postgraduate,No Heart Attack
+8,College,Heart Attack
+8,High School,No Heart Attack
+5,Postgraduate,No Heart Attack
+5,High School,Heart Attack
+9,College,No Heart Attack
+6,Postgraduate,Heart Attack
+7,Postgraduate,No Heart Attack
+9,Postgraduate,Heart Attack
+3,College,Heart Attack
+8,College,No Heart Attack
+2,College,Heart Attack
+7,College,No Heart Attack
+4,High School,Heart Attack
+6,Postgraduate,No Heart Attack
+9,Postgraduate,No Heart Attack
+9,Postgraduate,Heart Attack
+3,Postgraduate,No Heart Attack
+1,College,No Heart Attack
+1,College,No Heart Attack
+5,College,Heart Attack
+5,Postgraduate,No Heart Attack
+1,Postgraduate,Heart Attack
+9,High School,No Heart Attack
+8,College,No Heart Attack
+1,Postgraduate,Heart Attack
+3,High School,No Heart Attack
+9,College,Heart Attack
+6,High School,No Heart Attack
+9,Postgraduate,No Heart Attack
+7,College,Heart Attack
+6,College,No Heart Attack
+3,High School,Heart Attack
+5,College,No Heart Attack
+7,Postgraduate,No Heart Attack
+5,College,Heart Attack
+4,Postgraduate,Heart Attack
+3,High School,Heart Attack
+7,Postgraduate,No Heart Attack
+1,Postgraduate,Heart Attack
+4,College,No Heart Attack
+7,Postgraduate,No Heart Attack
+7,High School,No Heart Attack
+7,College,Heart Attack
+9,College,No Heart Attack
+9,College,Heart Attack
+6,College,No Heart Attack
+6,High School,Heart Attack
+2,High School,Heart Attack
+6,High School,Heart Attack
+9,High School,No Heart Attack
+6,College,No Heart Attack
+3,High School,Heart Attack
+8,Postgraduate,No Heart Attack
+1,High School,Heart Attack
+8,College,No Heart Attack
+6,Postgraduate,Heart Attack
+1,High School,Heart Attack
+3,Postgraduate,Heart Attack
+1,Postgraduate,Heart Attack
+1,Postgraduate,No Heart Attack
+9,Postgraduate,Heart Attack
+9,Postgraduate,No Heart Attack
+6,High School,No Heart Attack
+9,College,No Heart Attack
+2,High School,No Heart Attack
+7,High School,Heart Attack
+8,High School,No Heart Attack
+7,High School,Heart Attack
+8,College,Heart Attack
+3,Postgraduate,Heart Attack
+8,College,No Heart Attack
+7,College,Heart Attack
+8,Postgraduate,No Heart Attack
+8,College,No Heart Attack
+2,High School,No Heart Attack
+8,College,No Heart Attack
+9,College,No Heart Attack
+9,Postgraduate,Heart Attack
+3,College,No Heart Attack
+1,College,No Heart Attack
+3,College,Heart Attack
+8,College,Heart Attack
+1,College,No Heart Attack
+2,Postgraduate,Heart Attack
+8,High School,Heart Attack
+1,Postgraduate,Heart Attack
+2,College,Heart Attack
+6,Postgraduate,No Heart Attack
+7,Postgraduate,Heart Attack
+7,High School,Heart Attack
+8,College,No Heart Attack
+5,High School,No Heart Attack
+1,College,Heart Attack
+4,College,Heart Attack
+9,Postgraduate,No Heart Attack
+7,College,Heart Attack
+2,High School,No Heart Attack
+4,Postgraduate,No Heart Attack
+2,High School,No Heart Attack
+8,Postgraduate,Heart Attack
+6,College,No Heart Attack
+2,High School,Heart Attack
+3,College,Heart Attack
+8,College,No Heart Attack
+9,High School,No Heart Attack
+5,College,Heart Attack
+4,Postgraduate,Heart Attack
+7,High School,Heart Attack
+9,Postgraduate,No Heart Attack
+7,College,Heart Attack
+4,College,No Heart Attack
+3,College,Heart Attack
+3,Postgraduate,Heart Attack
+3,College,Heart Attack
+2,College,Heart Attack
+9,Postgraduate,Heart Attack
+6,Postgraduate,Heart Attack
+5,High School,No Heart Attack
+7,Postgraduate,Heart Attack
+5,Postgraduate,No Heart Attack
+1,Postgraduate,Heart Attack
+7,College,Heart Attack
+2,High School,Heart Attack
+9,Postgraduate,No Heart Attack
+1,College,No Heart Attack
+6,Postgraduate,Heart Attack
+9,Postgraduate,Heart Attack
+8,College,No Heart Attack
+6,College,Heart Attack
+6,High School,Heart Attack
+1,Postgraduate,Heart Attack
+5,High School,Heart Attack
+4,College,Heart Attack
+8,College,Heart Attack
+3,High School,No Heart Attack
+6,Postgraduate,No Heart Attack
+6,High School,No Heart Attack
+2,High School,Heart Attack
+9,Postgraduate,Heart Attack
+5,College,No Heart Attack
+8,College,Heart Attack
+9,College,No Heart Attack
+6,College,No Heart Attack
+9,Postgraduate,Heart Attack
+2,High School,Heart Attack
+6,Postgraduate,Heart Attack
+5,High School,No Heart Attack
+7,Postgraduate,No Heart Attack
+5,High School,No Heart Attack
+7,High School,No Heart Attack
+9,College,No Heart Attack
+7,High School,No Heart Attack
+8,College,No Heart Attack
+1,College,Heart Attack
+3,College,No Heart Attack
+6,College,No Heart Attack
+7,Postgraduate,No Heart Attack
+3,High School,Heart Attack
+7,High School,No Heart Attack
+7,High School,Heart Attack
+5,Postgraduate,No Heart Attack
+2,Postgraduate,Heart Attack
+7,High School,No Heart Attack
+5,College,No Heart Attack
+7,High School,Heart Attack
+4,High School,Heart Attack
+4,Postgraduate,Heart Attack
+4,High School,Heart Attack
+6,High School,No Heart Attack
+6,High School,No Heart Attack
+5,High School,No Heart Attack
+8,College,No Heart Attack
+4,High School,Heart Attack
+4,Postgraduate,Heart Attack
+3,College,Heart Attack
+6,Postgraduate,Heart Attack
+7,College,Heart Attack
+2,High School,No Heart Attack
+1,Postgraduate,Heart Attack
+8,Postgraduate,No Heart Attack
+7,Postgraduate,Heart Attack
+6,Postgraduate,Heart Attack
+9,College,Heart Attack
+4,High School,Heart Attack
+1,Postgraduate,Heart Attack
+2,High School,Heart Attack
+6,College,No Heart Attack
+2,Postgraduate,No Heart Attack
+1,High School,No Heart Attack
+9,Postgraduate,No Heart Attack
+9,Postgraduate,Heart Attack
+9,College,Heart Attack
+1,High School,No Heart Attack
+9,College,Heart Attack
+1,Postgraduate,No Heart Attack
+4,Postgraduate,Heart Attack
+1,High School,Heart Attack
+7,College,No Heart Attack
+6,College,Heart Attack
+6,College,Heart Attack
+6,College,No Heart Attack
+7,Postgraduate,No Heart Attack
+4,College,Heart Attack
+9,High School,Heart Attack
+7,Postgraduate,Heart Attack
+3,High School,No Heart Attack
+3,College,Heart Attack
+9,College,No Heart Attack
+4,College,No Heart Attack
+6,High School,No Heart Attack
+7,High School,Heart Attack
+2,High School,Heart Attack
+2,High School,Heart Attack
+7,High School,Heart Attack
+9,Postgraduate,Heart Attack
+6,College,No Heart Attack
+6,High School,No Heart Attack
+9,College,Heart Attack
+8,High School,No Heart Attack
+4,Postgraduate,No Heart Attack
+3,Postgraduate,Heart Attack
+7,High School,No Heart Attack
+2,High School,Heart Attack
+6,High School,Heart Attack
+9,Postgraduate,Heart Attack
+2,Postgraduate,No Heart Attack
+5,High School,Heart Attack
+8,Postgraduate,Heart Attack
+4,Postgraduate,No Heart Attack
+8,High School,Heart Attack
+5,Postgraduate,Heart Attack
+6,Postgraduate,Heart Attack
+8,Postgraduate,No Heart Attack
+5,College,No Heart Attack
+7,High School,Heart Attack
+9,High School,No Heart Attack
+3,College,No Heart Attack
+9,High School,Heart Attack
+8,College,Heart Attack
+1,High School,Heart Attack
+3,High School,No Heart Attack
+6,High School,Heart Attack
+1,High School,No Heart Attack
+1,Postgraduate,No Heart Attack
+3,High School,No Heart Attack
+4,High School,Heart Attack
+2,Postgraduate,No Heart Attack
+7,Postgraduate,No Heart Attack
+9,College,Heart Attack
+6,High School,Heart Attack
+9,Postgraduate,Heart Attack
+1,Postgraduate,Heart Attack
+8,High School,No Heart Attack
+8,Postgraduate,Heart Attack
+9,College,No Heart Attack
+2,Postgraduate,No Heart Attack
+2,High School,No Heart Attack
+4,College,Heart Attack
+6,High School,No Heart Attack
+8,College,No Heart Attack
+7,College,No Heart Attack
+5,College,Heart Attack
+9,College,No Heart Attack
+1,College,Heart Attack
+5,Postgraduate,Heart Attack
+8,College,Heart Attack
+1,Postgraduate,Heart Attack
+1,College,No Heart Attack
+4,Postgraduate,No Heart Attack
+8,Postgraduate,Heart Attack
+1,High School,Heart Attack
+6,High School,Heart Attack
+4,High School,No Heart Attack
+5,College,Heart Attack
+7,College,Heart Attack
+7,High School,No Heart Attack
+5,College,Heart Attack
+5,High School,No Heart Attack
+6,Postgraduate,No Heart Attack
+6,High School,No Heart Attack
+2,College,Heart Attack
+4,High School,No Heart Attack
+6,Postgraduate,Heart Attack
+6,Postgraduate,Heart Attack
+7,Postgraduate,Heart Attack
+1,Postgraduate,No Heart Attack
+7,High School,Heart Attack
+4,High School,Heart Attack
+7,College,No Heart Attack
+1,Postgraduate,Heart Attack
+2,College,Heart Attack
+1,High School,Heart Attack
+9,College,Heart Attack
+5,College,Heart Attack
+1,High School,No Heart Attack
+7,College,Heart Attack
+1,High School,No Heart Attack
+3,High School,No Heart Attack
+5,Postgraduate,Heart Attack
+4,Postgraduate,Heart Attack
+9,High School,Heart Attack
+8,High School,Heart Attack
+3,High School,Heart Attack
+5,Postgraduate,Heart Attack
+3,High School,Heart Attack
+6,Postgraduate,No Heart Attack
+3,College,Heart Attack
+4,High School,No Heart Attack
+6,College,Heart Attack
+8,Postgraduate,Heart Attack
+5,High School,No Heart Attack
+5,College,Heart Attack
+6,High School,Heart Attack
+4,College,No Heart Attack
+4,College,Heart Attack
+9,College,Heart Attack
+6,College,No Heart Attack
+8,High School,No Heart Attack
+1,Postgraduate,Heart Attack
+1,Postgraduate,No Heart Attack
+9,Postgraduate,No Heart Attack
+1,Postgraduate,Heart Attack
+9,High School,No Heart Attack
+2,High School,Heart Attack
+3,Postgraduate,Heart Attack
+9,Postgraduate,Heart Attack
+2,College,No Heart Attack
+6,College,No Heart Attack
+3,Postgraduate,No Heart Attack
+3,Postgraduate,Heart Attack
+1,College,No Heart Attack
+4,College,Heart Attack
+1,Postgraduate,No Heart Attack
+4,High School,Heart Attack
+5,High School,No Heart Attack
+8,College,Heart Attack
+1,High School,No Heart Attack
+6,High School,Heart Attack
+7,Postgraduate,No Heart Attack
+1,College,Heart Attack
+8,High School,No Heart Attack
+8,High School,No Heart Attack
+6,Postgraduate,No Heart Attack
+1,High School,No Heart Attack
+3,Postgraduate,Heart Attack
+8,College,No Heart Attack
+7,College,Heart Attack
+2,High School,Heart Attack
+8,Postgraduate,No Heart Attack
+4,High School,No Heart Attack
+2,Postgraduate,Heart Attack
+5,College,Heart Attack
+4,College,No Heart Attack
+4,High School,Heart Attack
+5,High School,No Heart Attack
+3,College,Heart Attack
+9,High School,Heart Attack
+5,High School,Heart Attack
+4,College,No Heart Attack
+8,High School,Heart Attack
+4,High School,Heart Attack
+6,Postgraduate,Heart Attack
+7,Postgraduate,Heart Attack
+6,High School,No Heart Attack
+5,College,Heart Attack
+5,College,Heart Attack
+7,Postgraduate,Heart Attack
+1,Postgraduate,Heart Attack
+8,College,No Heart Attack
+8,High School,No Heart Attack
+7,High School,Heart Attack
+5,Postgraduate,No Heart Attack
+9,Postgraduate,No Heart Attack
+4,College,Heart Attack
+5,College,No Heart Attack
+1,College,No Heart Attack
+1,Postgraduate,Heart Attack
+8,College,Heart Attack
+7,Postgraduate,Heart Attack
+4,College,No Heart Attack
+7,College,No Heart Attack
+4,College,Heart Attack
+9,Postgraduate,No Heart Attack
+1,College,Heart Attack
+9,College,Heart Attack
+6,High School,Heart Attack
+2,High School,No Heart Attack
+7,High School,Heart Attack
+3,High School,No Heart Attack
+9,High School,No Heart Attack
+6,Postgraduate,No Heart Attack
+3,College,Heart Attack
+1,College,No Heart Attack
+9,College,No Heart Attack
+4,High School,No Heart Attack
+5,High School,No Heart Attack
+9,High School,Heart Attack
+1,High School,No Heart Attack
+2,College,No Heart Attack
+6,Postgraduate,Heart Attack
+1,College,Heart Attack
+2,Postgraduate,No Heart Attack
+9,High School,Heart Attack
+8,High School,No Heart Attack
+7,High School,Heart Attack
+9,High School,No Heart Attack
+6,Postgraduate,Heart Attack
+3,Postgraduate,Heart Attack
+8,Postgraduate,No Heart Attack
+7,High School,No Heart Attack
+8,College,No Heart Attack
+5,High School,Heart Attack
+9,College,No Heart Attack
+9,Postgraduate,No Heart Attack
+6,College,No Heart Attack
+3,High School,No Heart Attack
+8,Postgraduate,No Heart Attack
+3,Postgraduate,Heart Attack
+3,High School,Heart Attack
+9,High School,No Heart Attack
+4,High School,Heart Attack
+7,Postgraduate,No Heart Attack
+7,Postgraduate,No Heart Attack
+5,High School,No Heart Attack
+5,High School,No Heart Attack
+8,High School,No Heart Attack
+5,High School,No Heart Attack
+3,Postgraduate,No Heart Attack
+6,Postgraduate,No Heart Attack
+6,College,Heart Attack
+4,College,No Heart Attack
+8,Postgraduate,Heart Attack
+6,High School,Heart Attack
+2,Postgraduate,No Heart Attack
+9,College,Heart Attack
+3,High School,No Heart Attack
+9,College,No Heart Attack
+6,Postgraduate,No Heart Attack
+2,High School,Heart Attack
+5,College,No Heart Attack
+8,College,Heart Attack
+3,College,Heart Attack
+1,College,Heart Attack
+7,Postgraduate,No Heart Attack
+8,Postgraduate,Heart Attack
+6,Postgraduate,Heart Attack
+5,High School,Heart Attack
+7,Postgraduate,No Heart Attack
+7,High School,Heart Attack
+5,College,No Heart Attack
+3,College,Heart Attack
+8,Postgraduate,Heart Attack
+8,High School,No Heart Attack
+8,High School,No Heart Attack
+4,Postgraduate,No Heart Attack
+4,Postgraduate,No Heart Attack
+5,High School,Heart Attack
+1,College,Heart Attack
+2,Postgraduate,No Heart Attack
+2,Postgraduate,No Heart Attack
+6,Postgraduate,No Heart Attack
+2,College,No Heart Attack
+9,High School,Heart Attack
+7,Postgraduate,No Heart Attack
+2,College,No Heart Attack
+8,Postgraduate,Heart Attack
+3,High School,Heart Attack
+7,Postgraduate,No Heart Attack
+7,High School,Heart Attack
+5,High School,No Heart Attack
+6,College,Heart Attack
+2,College,Heart Attack
+2,High School,Heart Attack
+5,High School,No Heart Attack
+8,Postgraduate,No Heart Attack
+8,High School,No Heart Attack
+8,College,Heart Attack
+5,College,Heart Attack
+7,Postgraduate,No Heart Attack
+5,High School,Heart Attack
+5,Postgraduate,Heart Attack
+6,Postgraduate,Heart Attack
+1,Postgraduate,No Heart Attack
+3,High School,No Heart Attack
+9,High School,No Heart Attack
+2,Postgraduate,No Heart Attack
+6,High School,Heart Attack
+5,High School,No Heart Attack
+8,High School,Heart Attack
+9,Postgraduate,Heart Attack
+8,Postgraduate,No Heart Attack
+8,Postgraduate,No Heart Attack
+9,College,No Heart Attack
+1,Postgraduate,Heart Attack
+9,High School,No Heart Attack
+9,High School,No Heart Attack
+2,High School,Heart Attack
+8,High School,Heart Attack
+2,High School,Heart Attack
+3,College,No Heart Attack
+5,High School,Heart Attack
+8,College,No Heart Attack
+5,College,Heart Attack
+5,High School,No Heart Attack
+8,Postgraduate,Heart Attack
+6,High School,No Heart Attack
+3,College,No Heart Attack
+7,High School,Heart Attack
+1,Postgraduate,No Heart Attack
+2,High School,Heart Attack
+3,Postgraduate,No Heart Attack
+9,High School,No Heart Attack
+6,High School,No Heart Attack
+2,Postgraduate,Heart Attack
+3,College,Heart Attack
+2,College,No Heart Attack
+4,College,Heart Attack
+8,High School,Heart Attack
+3,Postgraduate,Heart Attack
+5,High School,Heart Attack
+2,College,Heart Attack
+8,College,Heart Attack
+3,High School,No Heart Attack
+2,Postgraduate,Heart Attack
+7,Postgraduate,No Heart Attack
+6,College,No Heart Attack
+4,College,Heart Attack
+6,Postgraduate,No Heart Attack
+3,High School,No Heart Attack
+4,Postgraduate,No Heart Attack
+3,Postgraduate,Heart Attack
+9,College,Heart Attack
+1,High School,No Heart Attack
+6,Postgraduate,Heart Attack
+3,Postgraduate,Heart Attack
+3,High School,No Heart Attack
+8,Postgraduate,Heart Attack
+8,Postgraduate,Heart Attack
+2,Postgraduate,Heart Attack
+7,College,Heart Attack
+9,Postgraduate,No Heart Attack
+3,College,Heart Attack
+3,Postgraduate,No Heart Attack
+8,College,Heart Attack
+7,Postgraduate,Heart Attack
+2,Postgraduate,Heart Attack
+3,High School,Heart Attack
+8,Postgraduate,Heart Attack
+3,High School,Heart Attack
+9,Postgraduate,No Heart Attack
+1,Postgraduate,Heart Attack
+4,High School,No Heart Attack
+1,Postgraduate,Heart Attack
+1,College,No Heart Attack
+2,High School,Heart Attack
+8,Postgraduate,Heart Attack
+3,Postgraduate,No Heart Attack
+7,Postgraduate,No Heart Attack
+2,Postgraduate,No Heart Attack
+7,Postgraduate,No Heart Attack
+2,High School,No Heart Attack
+6,College,Heart Attack
+7,High School,Heart Attack
+9,High School,Heart Attack
+4,Postgraduate,No Heart Attack
+3,High School,Heart Attack
+6,College,Heart Attack
+9,Postgraduate,No Heart Attack
+2,Postgraduate,No Heart Attack
+9,College,No Heart Attack
+1,High School,No Heart Attack
+9,Postgraduate,No Heart Attack
+8,College,Heart Attack
+2,Postgraduate,No Heart Attack
+1,Postgraduate,No Heart Attack
+5,College,Heart Attack
+7,High School,Heart Attack
+4,College,No Heart Attack
+5,Postgraduate,Heart Attack
+1,Postgraduate,No Heart Attack
+7,High School,No Heart Attack
+1,College,Heart Attack
+4,College,No Heart Attack
+4,Postgraduate,Heart Attack
+8,Postgraduate,No Heart Attack
+1,College,No Heart Attack
+9,College,No Heart Attack
+1,High School,No Heart Attack
+8,Postgraduate,No Heart Attack
+4,College,No Heart Attack
+7,College,No Heart Attack
+2,College,Heart Attack
+2,Postgraduate,Heart Attack
+5,High School,Heart Attack
+9,College,Heart Attack
+1,College,No Heart Attack
+8,High School,No Heart Attack
+3,Postgraduate,No Heart Attack
+7,College,No Heart Attack
+9,College,Heart Attack
+1,Postgraduate,Heart Attack
+2,College,No Heart Attack
+8,College,No Heart Attack
+5,Postgraduate,Heart Attack
+9,College,Heart Attack
+8,College,Heart Attack
+3,Postgraduate,Heart Attack
+2,High School,Heart Attack
+6,Postgraduate,Heart Attack
+8,College,No Heart Attack
+4,Postgraduate,Heart Attack
+2,High School,No Heart Attack
+4,Postgraduate,No Heart Attack
+9,College,No Heart Attack
+5,Postgraduate,Heart Attack
+2,Postgraduate,Heart Attack
+9,High School,No Heart Attack
+7,High School,No Heart Attack
+7,High School,No Heart Attack
+3,College,Heart Attack
+8,Postgraduate,Heart Attack
+3,College,No Heart Attack
+5,High School,No Heart Attack
+7,College,Heart Attack
+9,College,No Heart Attack
+7,Postgraduate,Heart Attack
+4,College,Heart Attack
+3,College,No Heart Attack
+2,College,No Heart Attack
+2,Postgraduate,Heart Attack
+9,College,No Heart Attack
+4,College,No Heart Attack
+1,College,Heart Attack
+5,College,Heart Attack
+2,Postgraduate,Heart Attack
+3,College,No Heart Attack
+1,High School,No Heart Attack
+7,High School,No Heart Attack
+5,High School,No Heart Attack
+4,High School,Heart Attack
+7,College,Heart Attack
+8,High School,Heart Attack
+1,High School,No Heart Attack
+2,High School,No Heart Attack
+7,College,Heart Attack
+7,College,No Heart Attack
+6,Postgraduate,No Heart Attack
+4,College,Heart Attack
+2,College,No Heart Attack
+6,High School,No Heart Attack
+6,High School,No Heart Attack
+7,Postgraduate,No Heart Attack
+7,High School,No Heart Attack
+2,High School,No Heart Attack
+5,College,No Heart Attack
+4,High School,Heart Attack
+7,High School,Heart Attack
+6,Postgraduate,Heart Attack
+3,Postgraduate,No Heart Attack
+7,College,Heart Attack
+1,Postgraduate,No Heart Attack
+2,College,No Heart Attack
+9,Postgraduate,Heart Attack
+8,College,Heart Attack
+1,Postgraduate,Heart Attack
+9,Postgraduate,Heart Attack
+6,College,Heart Attack
+8,College,Heart Attack
+8,Postgraduate,Heart Attack
+4,Postgraduate,Heart Attack
+5,Postgraduate,No Heart Attack
+4,College,Heart Attack
+5,High School,Heart Attack
+4,College,No Heart Attack
+3,Postgraduate,No Heart Attack
+2,Postgraduate,No Heart Attack
+4,College,No Heart Attack
+5,College,No Heart Attack
+1,College,No Heart Attack
+5,Postgraduate,No Heart Attack
+5,High School,Heart Attack
+2,College,Heart Attack
+7,Postgraduate,Heart Attack
+4,High School,No Heart Attack
+2,College,No Heart Attack
+5,Postgraduate,No Heart Attack
+4,College,No Heart Attack
+3,Postgraduate,No Heart Attack
+2,High School,No Heart Attack
+7,College,Heart Attack
+5,Postgraduate,No Heart Attack
+1,Postgraduate,No Heart Attack
+7,High School,No Heart Attack
+7,Postgraduate,No Heart Attack
+4,High School,No Heart Attack
+5,Postgraduate,No Heart Attack
+2,Postgraduate,No Heart Attack
+1,High School,Heart Attack
+2,College,Heart Attack
+8,College,No Heart Attack
+8,College,Heart Attack
+7,College,Heart Attack
+8,College,Heart Attack
+6,High School,Heart Attack
+2,High School,Heart Attack
+7,High School,No Heart Attack
+3,Postgraduate,Heart Attack
+6,Postgraduate,No Heart Attack
+5,College,Heart Attack
+7,College,Heart Attack
+8,College,Heart Attack
+4,High School,Heart Attack
+9,High School,No Heart Attack
