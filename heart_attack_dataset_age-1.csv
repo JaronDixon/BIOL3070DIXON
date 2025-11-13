@@ -1,0 +1,1000 @@
+Gender,StressLevel,EducationLevel,Outcome
+Male,1,High School,No Heart Attack
+Male,6,College,No Heart Attack
+Female,3,College,Heart Attack
+Male,3,High School,No Heart Attack
+Female,1,High School,Heart Attack
+Male,4,High School,Heart Attack
+Female,5,Postgraduate,No Heart Attack
+Female,5,College,No Heart Attack
+Male,2,Postgraduate,Heart Attack
+Male,3,High School,No Heart Attack
+Male,9,High School,Heart Attack
+Male,2,High School,No Heart Attack
+Male,4,High School,Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,9,High School,No Heart Attack
+Female,3,High School,No Heart Attack
+Female,2,College,No Heart Attack
+Female,4,High School,No Heart Attack
+Female,4,High School,Heart Attack
+Female,8,College,Heart Attack
+Male,6,College,Heart Attack
+Female,1,High School,Heart Attack
+Male,4,Postgraduate,No Heart Attack
+Male,6,College,Heart Attack
+Female,8,College,Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Female,5,College,Heart Attack
+Female,4,College,No Heart Attack
+Male,9,High School,No Heart Attack
+Female,7,High School,No Heart Attack
+Male,4,High School,Heart Attack
+Male,9,College,No Heart Attack
+Male,3,High School,No Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Male,5,High School,Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Female,2,High School,No Heart Attack
+Male,4,College,Heart Attack
+Male,3,College,No Heart Attack
+Male,5,College,No Heart Attack
+Male,4,College,Heart Attack
+Male,9,High School,Heart Attack
+Female,3,High School,Heart Attack
+Male,8,College,Heart Attack
+Female,2,Postgraduate,Heart Attack
+Male,4,High School,Heart Attack
+Female,7,College,Heart Attack
+Male,7,College,Heart Attack
+Male,6,College,No Heart Attack
+Female,6,High School,Heart Attack
+Male,4,College,No Heart Attack
+Female,6,College,Heart Attack
+Female,1,High School,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Male,8,High School,Heart Attack
+Male,9,High School,No Heart Attack
+Female,4,College,Heart Attack
+Male,8,College,No Heart Attack
+Female,4,Postgraduate,No Heart Attack
+Female,4,College,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Male,3,Postgraduate,Heart Attack
+Male,4,College,Heart Attack
+Female,7,Postgraduate,Heart Attack
+Female,5,College,Heart Attack
+Male,4,High School,Heart Attack
+Male,2,High School,No Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Female,6,Postgraduate,Heart Attack
+Male,3,High School,No Heart Attack
+Female,3,High School,Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Male,8,High School,No Heart Attack
+Female,2,High School,Heart Attack
+Male,9,High School,Heart Attack
+Female,3,College,No Heart Attack
+Female,8,College,No Heart Attack
+Female,8,Postgraduate,No Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Male,1,High School,No Heart Attack
+Female,5,High School,No Heart Attack
+Female,1,College,Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Male,3,High School,No Heart Attack
+Female,5,College,No Heart Attack
+Female,9,College,Heart Attack
+Female,3,High School,Heart Attack
+Female,7,High School,Heart Attack
+Male,7,College,Heart Attack
+Male,4,Postgraduate,No Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Female,9,High School,No Heart Attack
+Male,6,High School,No Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,5,High School,Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,5,College,No Heart Attack
+Female,8,High School,Heart Attack
+Female,1,College,No Heart Attack
+Female,3,High School,No Heart Attack
+Female,4,Postgraduate,Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,7,High School,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Female,8,College,No Heart Attack
+Female,6,High School,No Heart Attack
+Male,2,College,No Heart Attack
+Female,8,High School,No Heart Attack
+Male,6,High School,No Heart Attack
+Male,7,High School,Heart Attack
+Male,9,College,No Heart Attack
+Male,7,College,No Heart Attack
+Male,3,High School,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Male,9,College,No Heart Attack
+Male,4,Postgraduate,Heart Attack
+Male,4,Postgraduate,No Heart Attack
+Male,9,High School,Heart Attack
+Male,5,High School,Heart Attack
+Female,3,College,No Heart Attack
+Female,2,High School,Heart Attack
+Female,2,College,No Heart Attack
+Male,4,College,Heart Attack
+Female,2,High School,No Heart Attack
+Male,9,High School,Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Male,3,High School,Heart Attack
+Female,6,College,No Heart Attack
+Female,2,High School,No Heart Attack
+Female,6,High School,No Heart Attack
+Female,5,Postgraduate,Heart Attack
+Male,5,High School,No Heart Attack
+Male,3,College,No Heart Attack
+Male,4,College,Heart Attack
+Female,9,Postgraduate,Heart Attack
+Female,7,Postgraduate,Heart Attack
+Male,4,High School,Heart Attack
+Male,9,High School,Heart Attack
+Male,5,Postgraduate,Heart Attack
+Male,3,College,No Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Female,4,Postgraduate,Heart Attack
+Male,5,Postgraduate,No Heart Attack
+Female,6,Postgraduate,Heart Attack
+Female,6,High School,No Heart Attack
+Male,7,High School,No Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Male,4,College,No Heart Attack
+Female,6,High School,No Heart Attack
+Female,5,High School,Heart Attack
+Male,1,College,Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,1,High School,No Heart Attack
+Male,3,College,No Heart Attack
+Male,8,College,No Heart Attack
+Female,1,High School,No Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Male,8,Postgraduate,Heart Attack
+Male,2,High School,Heart Attack
+Female,9,High School,Heart Attack
+Male,4,Postgraduate,Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Male,2,High School,Heart Attack
+Male,1,High School,Heart Attack
+Male,2,High School,No Heart Attack
+Male,3,College,No Heart Attack
+Female,6,High School,No Heart Attack
+Female,5,Postgraduate,No Heart Attack
+Male,5,High School,Heart Attack
+Female,6,Postgraduate,Heart Attack
+Male,4,College,Heart Attack
+Female,4,College,No Heart Attack
+Male,3,High School,No Heart Attack
+Female,2,Postgraduate,Heart Attack
+Male,7,Postgraduate,Heart Attack
+Female,3,High School,No Heart Attack
+Male,3,High School,Heart Attack
+Female,2,College,No Heart Attack
+Female,4,College,No Heart Attack
+Female,2,Postgraduate,Heart Attack
+Male,8,Postgraduate,Heart Attack
+Male,1,College,Heart Attack
+Male,2,College,Heart Attack
+Male,1,College,Heart Attack
+Female,3,Postgraduate,No Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,8,College,Heart Attack
+Male,7,High School,Heart Attack
+Female,4,College,Heart Attack
+Female,5,College,Heart Attack
+Male,3,High School,Heart Attack
+Female,5,College,Heart Attack
+Female,2,College,Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Male,3,College,No Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Female,9,College,Heart Attack
+Male,5,College,Heart Attack
+Male,8,College,No Heart Attack
+Female,4,High School,No Heart Attack
+Male,8,High School,Heart Attack
+Male,4,High School,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Male,4,High School,Heart Attack
+Female,6,High School,Heart Attack
+Male,1,College,Heart Attack
+Female,5,High School,Heart Attack
+Female,3,College,Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,1,College,No Heart Attack
+Female,5,College,Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Female,7,Postgraduate,Heart Attack
+Female,4,High School,Heart Attack
+Male,7,College,Heart Attack
+Female,5,Postgraduate,Heart Attack
+Female,7,College,Heart Attack
+Female,5,High School,Heart Attack
+Female,7,College,No Heart Attack
+Female,7,College,No Heart Attack
+Female,9,College,No Heart Attack
+Female,1,College,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Female,2,Postgraduate,Heart Attack
+Female,5,High School,No Heart Attack
+Female,1,High School,Heart Attack
+Male,6,High School,No Heart Attack
+Female,3,High School,Heart Attack
+Female,4,Postgraduate,Heart Attack
+Female,4,High School,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Male,9,High School,No Heart Attack
+Male,4,College,Heart Attack
+Female,5,College,Heart Attack
+Male,3,College,Heart Attack
+Male,1,High School,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,4,High School,No Heart Attack
+Male,6,College,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,8,High School,No Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,8,High School,No Heart Attack
+Male,3,College,Heart Attack
+Female,1,College,Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Male,5,Postgraduate,Heart Attack
+Female,4,Postgraduate,Heart Attack
+Male,7,High School,No Heart Attack
+Female,9,College,Heart Attack
+Female,2,College,No Heart Attack
+Female,6,College,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,9,High School,Heart Attack
+Female,6,College,No Heart Attack
+Female,3,Postgraduate,No Heart Attack
+Male,3,High School,Heart Attack
+Female,1,High School,Heart Attack
+Male,8,Postgraduate,Heart Attack
+Male,1,Postgraduate,Heart Attack
+Male,4,High School,No Heart Attack
+Female,1,High School,No Heart Attack
+Male,3,High School,No Heart Attack
+Female,9,Postgraduate,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Male,9,College,Heart Attack
+Female,7,College,No Heart Attack
+Female,4,Postgraduate,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Male,3,High School,Heart Attack
+Male,3,College,No Heart Attack
+Female,5,Postgraduate,Heart Attack
+Female,5,College,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Female,4,High School,Heart Attack
+Female,7,College,No Heart Attack
+Female,7,College,Heart Attack
+Male,8,College,Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Female,8,College,Heart Attack
+Male,8,High School,No Heart Attack
+Female,5,Postgraduate,No Heart Attack
+Female,5,High School,Heart Attack
+Male,9,College,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Female,9,Postgraduate,Heart Attack
+Male,3,College,Heart Attack
+Male,8,College,No Heart Attack
+Male,2,College,Heart Attack
+Male,7,College,No Heart Attack
+Male,4,High School,Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Female,9,Postgraduate,Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Male,1,College,No Heart Attack
+Male,1,College,No Heart Attack
+Female,5,College,Heart Attack
+Female,5,Postgraduate,No Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,9,High School,No Heart Attack
+Male,8,College,No Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,3,High School,No Heart Attack
+Male,9,College,Heart Attack
+Female,6,High School,No Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Female,7,College,Heart Attack
+Female,6,College,No Heart Attack
+Female,3,High School,Heart Attack
+Female,5,College,No Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Female,5,College,Heart Attack
+Male,4,Postgraduate,Heart Attack
+Female,3,High School,Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,4,College,No Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Male,7,High School,No Heart Attack
+Male,7,College,Heart Attack
+Female,9,College,No Heart Attack
+Female,9,College,Heart Attack
+Female,6,College,No Heart Attack
+Female,6,High School,Heart Attack
+Female,2,High School,Heart Attack
+Male,6,High School,Heart Attack
+Female,9,High School,No Heart Attack
+Female,6,College,No Heart Attack
+Female,3,High School,Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,1,High School,Heart Attack
+Male,8,College,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,1,High School,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Female,9,Postgraduate,Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Female,6,High School,No Heart Attack
+Female,9,College,No Heart Attack
+Male,2,High School,No Heart Attack
+Female,7,High School,Heart Attack
+Female,8,High School,No Heart Attack
+Male,7,High School,Heart Attack
+Female,8,College,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Male,8,College,No Heart Attack
+Male,7,College,Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,8,College,No Heart Attack
+Male,2,High School,No Heart Attack
+Female,8,College,No Heart Attack
+Male,9,College,No Heart Attack
+Male,9,Postgraduate,Heart Attack
+Male,3,College,No Heart Attack
+Female,1,College,No Heart Attack
+Male,3,College,Heart Attack
+Male,8,College,Heart Attack
+Male,1,College,No Heart Attack
+Male,2,Postgraduate,Heart Attack
+Female,8,High School,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,2,College,Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Male,7,Postgraduate,Heart Attack
+Male,7,High School,Heart Attack
+Female,8,College,No Heart Attack
+Male,5,High School,No Heart Attack
+Male,1,College,Heart Attack
+Male,4,College,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Female,7,College,Heart Attack
+Female,2,High School,No Heart Attack
+Female,4,Postgraduate,No Heart Attack
+Male,2,High School,No Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,6,College,No Heart Attack
+Male,2,High School,Heart Attack
+Male,3,College,Heart Attack
+Female,8,College,No Heart Attack
+Female,9,High School,No Heart Attack
+Male,5,College,Heart Attack
+Male,4,Postgraduate,Heart Attack
+Female,7,High School,Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Female,7,College,Heart Attack
+Female,4,College,No Heart Attack
+Male,3,College,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Female,3,College,Heart Attack
+Male,2,College,Heart Attack
+Male,9,Postgraduate,Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,5,High School,No Heart Attack
+Male,7,Postgraduate,Heart Attack
+Male,5,Postgraduate,No Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,7,College,Heart Attack
+Male,2,High School,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Male,1,College,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,9,Postgraduate,Heart Attack
+Male,8,College,No Heart Attack
+Female,6,College,Heart Attack
+Male,6,High School,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,5,High School,Heart Attack
+Female,4,College,Heart Attack
+Female,8,College,Heart Attack
+Female,3,High School,No Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Male,6,High School,No Heart Attack
+Female,2,High School,Heart Attack
+Female,9,Postgraduate,Heart Attack
+Male,5,College,No Heart Attack
+Male,8,College,Heart Attack
+Male,9,College,No Heart Attack
+Female,6,College,No Heart Attack
+Male,9,Postgraduate,Heart Attack
+Male,2,High School,Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,5,High School,No Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Male,5,High School,No Heart Attack
+Male,7,High School,No Heart Attack
+Male,9,College,No Heart Attack
+Male,7,High School,No Heart Attack
+Male,8,College,No Heart Attack
+Male,1,College,Heart Attack
+Male,3,College,No Heart Attack
+Female,6,College,No Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Male,3,High School,Heart Attack
+Male,7,High School,No Heart Attack
+Male,7,High School,Heart Attack
+Female,5,Postgraduate,No Heart Attack
+Male,2,Postgraduate,Heart Attack
+Male,7,High School,No Heart Attack
+Male,5,College,No Heart Attack
+Female,7,High School,Heart Attack
+Male,4,High School,Heart Attack
+Female,4,Postgraduate,Heart Attack
+Male,4,High School,Heart Attack
+Female,6,High School,No Heart Attack
+Male,6,High School,No Heart Attack
+Male,5,High School,No Heart Attack
+Male,8,College,No Heart Attack
+Male,4,High School,Heart Attack
+Female,4,Postgraduate,Heart Attack
+Male,3,College,Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,7,College,Heart Attack
+Male,2,High School,No Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,8,Postgraduate,No Heart Attack
+Female,7,Postgraduate,Heart Attack
+Female,6,Postgraduate,Heart Attack
+Male,9,College,Heart Attack
+Male,4,High School,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,2,High School,Heart Attack
+Female,6,College,No Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,1,High School,No Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Male,9,Postgraduate,Heart Attack
+Male,9,College,Heart Attack
+Female,1,High School,No Heart Attack
+Female,9,College,Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,4,Postgraduate,Heart Attack
+Female,1,High School,Heart Attack
+Male,7,College,No Heart Attack
+Male,6,College,Heart Attack
+Male,6,College,Heart Attack
+Female,6,College,No Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Female,4,College,Heart Attack
+Male,9,High School,Heart Attack
+Female,7,Postgraduate,Heart Attack
+Female,3,High School,No Heart Attack
+Male,3,College,Heart Attack
+Male,9,College,No Heart Attack
+Female,4,College,No Heart Attack
+Male,6,High School,No Heart Attack
+Female,7,High School,Heart Attack
+Male,2,High School,Heart Attack
+Male,2,High School,Heart Attack
+Male,7,High School,Heart Attack
+Male,9,Postgraduate,Heart Attack
+Male,6,College,No Heart Attack
+Female,6,High School,No Heart Attack
+Male,9,College,Heart Attack
+Female,8,High School,No Heart Attack
+Female,4,Postgraduate,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Female,7,High School,No Heart Attack
+Female,2,High School,Heart Attack
+Female,6,High School,Heart Attack
+Male,9,Postgraduate,Heart Attack
+Female,2,Postgraduate,No Heart Attack
+Male,5,High School,Heart Attack
+Male,8,Postgraduate,Heart Attack
+Male,4,Postgraduate,No Heart Attack
+Female,8,High School,Heart Attack
+Female,5,Postgraduate,Heart Attack
+Female,6,Postgraduate,Heart Attack
+Female,8,Postgraduate,No Heart Attack
+Female,5,College,No Heart Attack
+Male,7,High School,Heart Attack
+Male,9,High School,No Heart Attack
+Female,3,College,No Heart Attack
+Male,9,High School,Heart Attack
+Male,8,College,Heart Attack
+Female,1,High School,Heart Attack
+Female,3,High School,No Heart Attack
+Male,6,High School,Heart Attack
+Female,1,High School,No Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,3,High School,No Heart Attack
+Female,4,High School,Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Female,9,College,Heart Attack
+Female,6,High School,Heart Attack
+Male,9,Postgraduate,Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,8,High School,No Heart Attack
+Male,8,Postgraduate,Heart Attack
+Female,9,College,No Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,2,High School,No Heart Attack
+Male,4,College,Heart Attack
+Male,6,High School,No Heart Attack
+Female,8,College,No Heart Attack
+Female,7,College,No Heart Attack
+Male,5,College,Heart Attack
+Female,9,College,No Heart Attack
+Male,1,College,Heart Attack
+Female,5,Postgraduate,Heart Attack
+Female,8,College,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,1,College,No Heart Attack
+Female,4,Postgraduate,No Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,1,High School,Heart Attack
+Female,6,High School,Heart Attack
+Female,4,High School,No Heart Attack
+Female,5,College,Heart Attack
+Female,7,College,Heart Attack
+Female,7,High School,No Heart Attack
+Female,5,College,Heart Attack
+Female,5,High School,No Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Female,6,High School,No Heart Attack
+Female,2,College,Heart Attack
+Female,4,High School,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,6,Postgraduate,Heart Attack
+Male,7,Postgraduate,Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Male,7,High School,Heart Attack
+Female,4,High School,Heart Attack
+Female,7,College,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,2,College,Heart Attack
+Female,1,High School,Heart Attack
+Male,9,College,Heart Attack
+Female,5,College,Heart Attack
+Female,1,High School,No Heart Attack
+Female,7,College,Heart Attack
+Female,1,High School,No Heart Attack
+Male,3,High School,No Heart Attack
+Female,5,Postgraduate,Heart Attack
+Male,4,Postgraduate,Heart Attack
+Male,9,High School,Heart Attack
+Female,8,High School,Heart Attack
+Male,3,High School,Heart Attack
+Male,5,Postgraduate,Heart Attack
+Female,3,High School,Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Female,3,College,Heart Attack
+Female,4,High School,No Heart Attack
+Female,6,College,Heart Attack
+Female,8,Postgraduate,Heart Attack
+Male,5,High School,No Heart Attack
+Male,5,College,Heart Attack
+Male,6,High School,Heart Attack
+Male,4,College,No Heart Attack
+Male,4,College,Heart Attack
+Male,9,College,Heart Attack
+Female,6,College,No Heart Attack
+Female,8,High School,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,9,High School,No Heart Attack
+Female,2,High School,Heart Attack
+Male,3,Postgraduate,Heart Attack
+Male,9,Postgraduate,Heart Attack
+Male,2,College,No Heart Attack
+Female,6,College,No Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Female,1,College,No Heart Attack
+Female,4,College,Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,4,High School,Heart Attack
+Female,5,High School,No Heart Attack
+Female,8,College,Heart Attack
+Male,1,High School,No Heart Attack
+Female,6,High School,Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Female,1,College,Heart Attack
+Female,8,High School,No Heart Attack
+Male,8,High School,No Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Male,1,High School,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Male,8,College,No Heart Attack
+Female,7,College,Heart Attack
+Female,2,High School,Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Female,4,High School,No Heart Attack
+Male,2,Postgraduate,Heart Attack
+Female,5,College,Heart Attack
+Female,4,College,No Heart Attack
+Male,4,High School,Heart Attack
+Male,5,High School,No Heart Attack
+Female,3,College,Heart Attack
+Male,9,High School,Heart Attack
+Female,5,High School,Heart Attack
+Male,4,College,No Heart Attack
+Male,8,High School,Heart Attack
+Female,4,High School,Heart Attack
+Female,6,Postgraduate,Heart Attack
+Female,7,Postgraduate,Heart Attack
+Male,6,High School,No Heart Attack
+Male,5,College,Heart Attack
+Male,5,College,Heart Attack
+Male,7,Postgraduate,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Male,8,College,No Heart Attack
+Male,8,High School,No Heart Attack
+Female,7,High School,Heart Attack
+Male,5,Postgraduate,No Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Male,4,College,Heart Attack
+Female,5,College,No Heart Attack
+Male,1,College,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Male,8,College,Heart Attack
+Female,7,Postgraduate,Heart Attack
+Male,4,College,No Heart Attack
+Male,7,College,No Heart Attack
+Female,4,College,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Female,1,College,Heart Attack
+Female,9,College,Heart Attack
+Male,6,High School,Heart Attack
+Male,2,High School,No Heart Attack
+Female,7,High School,Heart Attack
+Female,3,High School,No Heart Attack
+Female,9,High School,No Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Male,3,College,Heart Attack
+Female,1,College,No Heart Attack
+Female,9,College,No Heart Attack
+Male,4,High School,No Heart Attack
+Male,5,High School,No Heart Attack
+Female,9,High School,Heart Attack
+Female,1,High School,No Heart Attack
+Female,2,College,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Male,1,College,Heart Attack
+Female,2,Postgraduate,No Heart Attack
+Male,9,High School,Heart Attack
+Female,8,High School,No Heart Attack
+Female,7,High School,Heart Attack
+Female,9,High School,No Heart Attack
+Male,6,Postgraduate,Heart Attack
+Male,3,Postgraduate,Heart Attack
+Female,8,Postgraduate,No Heart Attack
+Female,7,High School,No Heart Attack
+Male,8,College,No Heart Attack
+Female,5,High School,Heart Attack
+Female,9,College,No Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Female,6,College,No Heart Attack
+Male,3,High School,No Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Male,3,High School,Heart Attack
+Female,9,High School,No Heart Attack
+Male,4,High School,Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Male,5,High School,No Heart Attack
+Female,5,High School,No Heart Attack
+Female,8,High School,No Heart Attack
+Male,5,High School,No Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Male,6,College,Heart Attack
+Female,4,College,No Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,6,High School,Heart Attack
+Female,2,Postgraduate,No Heart Attack
+Male,9,College,Heart Attack
+Female,3,High School,No Heart Attack
+Female,9,College,No Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Male,2,High School,Heart Attack
+Male,5,College,No Heart Attack
+Male,8,College,Heart Attack
+Female,3,College,Heart Attack
+Male,1,College,Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Male,8,Postgraduate,Heart Attack
+Male,6,Postgraduate,Heart Attack
+Male,5,High School,Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Male,7,High School,Heart Attack
+Female,5,College,No Heart Attack
+Male,3,College,Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,8,High School,No Heart Attack
+Male,8,High School,No Heart Attack
+Male,4,Postgraduate,No Heart Attack
+Female,4,Postgraduate,No Heart Attack
+Female,5,High School,Heart Attack
+Female,1,College,Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Female,2,Postgraduate,No Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Male,2,College,No Heart Attack
+Male,9,High School,Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Female,2,College,No Heart Attack
+Male,8,Postgraduate,Heart Attack
+Female,3,High School,Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Female,7,High School,Heart Attack
+Female,5,High School,No Heart Attack
+Male,6,College,Heart Attack
+Female,2,College,Heart Attack
+Male,2,High School,Heart Attack
+Male,5,High School,No Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Female,8,High School,No Heart Attack
+Male,8,College,Heart Attack
+Male,5,College,Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Female,5,High School,Heart Attack
+Male,5,Postgraduate,Heart Attack
+Female,6,Postgraduate,Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Male,3,High School,No Heart Attack
+Male,9,High School,No Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,6,High School,Heart Attack
+Male,5,High School,No Heart Attack
+Male,8,High School,Heart Attack
+Female,9,Postgraduate,Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,9,College,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,9,High School,No Heart Attack
+Male,9,High School,No Heart Attack
+Male,2,High School,Heart Attack
+Female,8,High School,Heart Attack
+Female,2,High School,Heart Attack
+Male,3,College,No Heart Attack
+Female,5,High School,Heart Attack
+Male,8,College,No Heart Attack
+Male,5,College,Heart Attack
+Female,5,High School,No Heart Attack
+Male,8,Postgraduate,Heart Attack
+Female,6,High School,No Heart Attack
+Female,3,College,No Heart Attack
+Male,7,High School,Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,2,High School,Heart Attack
+Female,3,Postgraduate,No Heart Attack
+Female,9,High School,No Heart Attack
+Male,6,High School,No Heart Attack
+Male,2,Postgraduate,Heart Attack
+Male,3,College,Heart Attack
+Male,2,College,No Heart Attack
+Male,4,College,Heart Attack
+Female,8,High School,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Female,5,High School,Heart Attack
+Female,2,College,Heart Attack
+Male,8,College,Heart Attack
+Male,3,High School,No Heart Attack
+Female,2,Postgraduate,Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Male,6,College,No Heart Attack
+Female,4,College,Heart Attack
+Male,6,Postgraduate,No Heart Attack
+Male,3,High School,No Heart Attack
+Female,4,Postgraduate,No Heart Attack
+Male,3,Postgraduate,Heart Attack
+Female,9,College,Heart Attack
+Female,1,High School,No Heart Attack
+Female,6,Postgraduate,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Female,3,High School,No Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,8,Postgraduate,Heart Attack
+Male,2,Postgraduate,Heart Attack
+Female,7,College,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Female,3,College,Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Female,8,College,Heart Attack
+Male,7,Postgraduate,Heart Attack
+Male,2,Postgraduate,Heart Attack
+Male,3,High School,Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,3,High School,Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Male,4,High School,No Heart Attack
+Female,1,Postgraduate,Heart Attack
+Male,1,College,No Heart Attack
+Female,2,High School,Heart Attack
+Female,8,Postgraduate,Heart Attack
+Female,3,Postgraduate,No Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Female,2,Postgraduate,No Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Male,2,High School,No Heart Attack
+Female,6,College,Heart Attack
+Male,7,High School,Heart Attack
+Male,9,High School,Heart Attack
+Male,4,Postgraduate,No Heart Attack
+Male,3,High School,Heart Attack
+Male,6,College,Heart Attack
+Male,9,Postgraduate,No Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,9,College,No Heart Attack
+Male,1,High School,No Heart Attack
+Female,9,Postgraduate,No Heart Attack
+Male,8,College,Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Male,5,College,Heart Attack
+Female,7,High School,Heart Attack
+Female,4,College,No Heart Attack
+Male,5,Postgraduate,Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Male,7,High School,No Heart Attack
+Female,1,College,Heart Attack
+Male,4,College,No Heart Attack
+Female,4,Postgraduate,Heart Attack
+Female,8,Postgraduate,No Heart Attack
+Female,1,College,No Heart Attack
+Female,9,College,No Heart Attack
+Male,1,High School,No Heart Attack
+Male,8,Postgraduate,No Heart Attack
+Male,4,College,No Heart Attack
+Female,7,College,No Heart Attack
+Male,2,College,Heart Attack
+Female,2,Postgraduate,Heart Attack
+Male,5,High School,Heart Attack
+Male,9,College,Heart Attack
+Female,1,College,No Heart Attack
+Male,8,High School,No Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Male,7,College,No Heart Attack
+Male,9,College,Heart Attack
+Male,1,Postgraduate,Heart Attack
+Female,2,College,No Heart Attack
+Female,8,College,No Heart Attack
+Male,5,Postgraduate,Heart Attack
+Male,9,College,Heart Attack
+Female,8,College,Heart Attack
+Female,3,Postgraduate,Heart Attack
+Male,2,High School,Heart Attack
+Male,6,Postgraduate,Heart Attack
+Female,8,College,No Heart Attack
+Male,4,Postgraduate,Heart Attack
+Female,2,High School,No Heart Attack
+Female,4,Postgraduate,No Heart Attack
+Female,9,College,No Heart Attack
+Male,5,Postgraduate,Heart Attack
+Female,2,Postgraduate,Heart Attack
+Female,9,High School,No Heart Attack
+Female,7,High School,No Heart Attack
+Female,7,High School,No Heart Attack
+Female,3,College,Heart Attack
+Male,8,Postgraduate,Heart Attack
+Male,3,College,No Heart Attack
+Male,5,High School,No Heart Attack
+Male,7,College,Heart Attack
+Male,9,College,No Heart Attack
+Female,7,Postgraduate,Heart Attack
+Female,4,College,Heart Attack
+Female,3,College,No Heart Attack
+Male,2,College,No Heart Attack
+Female,2,Postgraduate,Heart Attack
+Male,9,College,No Heart Attack
+Male,4,College,No Heart Attack
+Female,1,College,Heart Attack
+Female,5,College,Heart Attack
+Female,2,Postgraduate,Heart Attack
+Male,3,College,No Heart Attack
+Female,1,High School,No Heart Attack
+Female,7,High School,No Heart Attack
+Male,5,High School,No Heart Attack
+Female,4,High School,Heart Attack
+Female,7,College,Heart Attack
+Female,8,High School,Heart Attack
+Female,1,High School,No Heart Attack
+Female,2,High School,No Heart Attack
+Female,7,College,Heart Attack
+Male,7,College,No Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Female,4,College,Heart Attack
+Male,2,College,No Heart Attack
+Female,6,High School,No Heart Attack
+Female,6,High School,No Heart Attack
+Female,7,Postgraduate,No Heart Attack
+Male,7,High School,No Heart Attack
+Male,2,High School,No Heart Attack
+Male,5,College,No Heart Attack
+Female,4,High School,Heart Attack
+Male,7,High School,Heart Attack
+Male,6,Postgraduate,Heart Attack
+Male,3,Postgraduate,No Heart Attack
+Female,7,College,Heart Attack
+Male,1,Postgraduate,No Heart Attack
+Female,2,College,No Heart Attack
+Male,9,Postgraduate,Heart Attack
+Female,8,College,Heart Attack
+Female,1,Postgraduate,Heart Attack
+Female,9,Postgraduate,Heart Attack
+Male,6,College,Heart Attack
+Female,8,College,Heart Attack
+Male,8,Postgraduate,Heart Attack
+Male,4,Postgraduate,Heart Attack
+Male,5,Postgraduate,No Heart Attack
+Male,4,College,Heart Attack
+Male,5,High School,Heart Attack
+Male,4,College,No Heart Attack
+Female,3,Postgraduate,No Heart Attack
+Male,2,Postgraduate,No Heart Attack
+Male,4,College,No Heart Attack
+Female,5,College,No Heart Attack
+Male,1,College,No Heart Attack
+Male,5,Postgraduate,No Heart Attack
+Male,5,High School,Heart Attack
+Female,2,College,Heart Attack
+Male,7,Postgraduate,Heart Attack
+Female,4,High School,No Heart Attack
+Male,2,College,No Heart Attack
+Female,5,Postgraduate,No Heart Attack
+Female,4,College,No Heart Attack
+Female,3,Postgraduate,No Heart Attack
+Male,2,High School,No Heart Attack
+Female,7,College,Heart Attack
+Male,5,Postgraduate,No Heart Attack
+Female,1,Postgraduate,No Heart Attack
+Female,7,High School,No Heart Attack
+Male,7,Postgraduate,No Heart Attack
+Female,4,High School,No Heart Attack
+Male,5,Postgraduate,No Heart Attack
+Female,2,Postgraduate,No Heart Attack
+Male,1,High School,Heart Attack
+Female,2,College,Heart Attack
+Male,8,College,No Heart Attack
+Male,8,College,Heart Attack
+Male,7,College,Heart Attack
+Male,8,College,Heart Attack
+Female,6,High School,Heart Attack
+Female,2,High School,Heart Attack
+Male,7,High School,No Heart Attack
+Female,3,Postgraduate,Heart Attack
+Female,6,Postgraduate,No Heart Attack
+Female,5,College,Heart Attack
+Male,7,College,Heart Attack
+Female,8,College,Heart Attack
+Male,4,High School,Heart Attack
+Male,9,High School,No Heart Attack
