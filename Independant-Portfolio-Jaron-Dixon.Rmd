@@ -14,14 +14,16 @@ library(dplyr)
 library(ggplot2)
 library(viridis)  
 library(ggridges)
+library(broom)
+library(tidyverse)
 heart_data <- read.csv("heart_attack_dataset_age-1.csv")
 ```
 
 # ABSTRACT
-
+Heart attacks affect approximately 805,000 Americans annually, showing the importance to understand factors that contribute to increased cardiovascular risk. Previous research indicates that chronic stress can heighten inflammation, promote arterial plaque buildup, and elevate blood pressure through increased hormone release, ultimately leading to more risk of cardiac events. Stress is particularly prevalent among individuals pursuing higher education, as both undergraduate and postgraduate students face academic, professional, and personal pressures that may contribute to long-term stress. Additionally, gender has been identified as a potential risk factor, with men experiencing heart attacks at roughly twice the rate of women, suggesting a possibly protective hormonal differences. Given these observations, this study examines how stress levels, educational status, and gender may interact to influence the likelihood of experiencing a heart attack. The results conclude no correlation between these factors and the presence of an individual having a heart attack. This continues our search to find a potential risk factor for heart attacks. 
 
 # BACKGROUND
-Every year about 805,000 Americans have a heart attack. (Tsao et al., 2023) A heart attack can pose pain from a mild discomfort to severe crushing pain. (Kulkarni, 2025) This health risk has become like a ticking bomb being able to strike anyone. With this disease that has the ability to strike a variety of different individuals, research has begun to try and predict risk factors or conditions that can cause an individual to be more susceptible to having a heart attack. Long-term or chronic stress can lead to higher levels of inflammation in the body which leads to more plague buildup in the arteries. (Katella, 2024) Additionally, stress also causes hormones such as adrenaline. (Katella, 2024) Adrenaline increases mental alertness and the heart beats faster and raises blood pressure. (Katella, 2024) Prolonged stress leads to heart damage. 
+Every year about 805,000 Americans have a heart attack. (Tsao et al., 2023) A heart attack can pose pain from a mild discomfort to severe crushing pain. (Kulkarni, 2025) This health risk has become like a ticking bomb being able to strike anyone. With this disease that has the ability to strike a variety of different individuals, research has begun to try and predict risk factors or conditions that can cause an individual to be more susceptible to having a heart attack. Long-term or chronic stress can lead to higher levels of inflammation in the body which leads to more plaque buildup in the arteries. (Katella, 2024) Additionally, stress also causes hormones such as adrenaline. (Katella, 2024) Adrenaline increases mental alertness and the heart beats faster and raises blood pressure. (Katella, 2024) Prolonged stress leads to heart damage. 
 
 With this in mind we turn to what might cause an individual to have prolonged stress. Specifically, undergraduate students often experience stress related to adapting to higher education and managing coursework. (Pérez-Jorge, 2025) Postgraduate students also exhibit stress about advanced research, thesis completion, and balancing academic work and professional responsibilities. (Pérez-Jorge, 2025) When it comes to pursuing higher education there are a lot of stressful responsibilities for individuals. This could be a cause of having a risk of heart attacks because of the impact of the stress on the body. 
 
@@ -45,6 +47,7 @@ If the person is male, have high stress level, and have a post-graduate educatio
 We expect to see people who are male, that have a post graduate degree, and who are under high stress to experience the highest chance of obtaining a heart attack.
 
 # Methods
+The database chosen for this study was the Kaggle database, and the heart attack prediction set was the one chosen for this study. It was chosen because it had enough entries for our purposes and many variables to test. Once the variables were chosen, an excel spreadsheet was created to hold all the data. Models were made for each kind of test based on the type of data by testing variables against the outcomes of heart attack outcome. After all the variables were tested individually, they were then all tested at the same time vs heart attack outcome to test for a correlation between all of them. After which each model was examined visually and statistically based on the type of model created (ANOVA, linear model etc.) to determine the validity and significance of them. 
 
 # Analyses
 
@@ -99,7 +102,7 @@ ggplot(heart_data, aes(x = StressLevel, y = Outcome, fill = Outcome)) +
     y = "Heart Attack Outcome",
     fill = "Outcome"
   ) +
-  theme_minimal(base_size = 14) +
+  theme_minimal(base_size = 13) +
   theme(
     plot.title = element_text(hjust = 0.5, face = "bold"),
     legend.position = "none",
@@ -158,7 +161,7 @@ ggplot(heart_data, aes(
     alpha = "Heart Attack Outcome",
     shape = "Gender"
   ) +
-  theme_minimal(base_size = 14) +
+  theme_minimal(base_size = 10) +
   theme(
     plot.title = element_text(hjust = 0.5, face = "bold")
   )
@@ -167,12 +170,8 @@ ggplot(heart_data, aes(
 
 ## Statistical Analysis
 
-```{r Stress Levels vs Heart Attack Logistic Regression}
-# Load necessary libraries
-library(ggplot2)
-library(broom)  # for tidy model output
+```{r Stress Levels vs Heart Attack Logistic Regression, eval=TRUE}
 
-# Ensure Outcome is a factor with the correct reference level
 heart_data$Outcome <- factor(heart_data$Outcome, levels = c("No Heart Attack", "Heart Attack"))
 
 # Fit logistic regression model
@@ -187,7 +186,7 @@ print(odds_ratios)
 
 # Extract tidy model output for p-value
 model_stats <- tidy(stress_model)
-p_value <- model_stats$p.value[2]  # p-value for StressLevel
+p_value <- model_stats$p.value[2]  
 cat("P-value for Stress Level:", round(p_value, 4), "\n")
 
 # Create data for predicted probabilities
@@ -199,15 +198,11 @@ pred_data$PredictedProb <- predict(stress_model, newdata = pred_data, type = "re
 
 # Plot predicted probability curve with dotted points
 ggplot() +
-  # Add raw data points (dotted)
   geom_jitter(data = heart_data, aes(x = StressLevel, y = as.numeric(Outcome) - 1),
               width = 0.15, alpha = 0.5, shape = 21, color = "black", fill = "grey80") +
-  # Add predicted probability curve
   geom_line(data = pred_data, aes(x = StressLevel, y = PredictedProb),
             color = "red", size = 1.2) +
-  # Rug for distribution
   geom_rug(data = heart_data, aes(x = StressLevel), sides = "b", alpha = 0.3) +
-  # Labels
   labs(
     title = paste0(
       "Predicted Probability of Heart Attack by Stress Level\n",
@@ -221,7 +216,7 @@ ggplot() +
 
 
 
-```{r Education Level vs Heart Attack Chi Squared}
+```{r Education Level vs Heart Attack Chi Squared, eval=TRUE}
 # Create a contingency table of counts
 edu_table <- table(heart_data$EducationLevel, heart_data$Outcome)
 print("Contingency Table:")
@@ -233,7 +228,7 @@ print("Chi-Square Test Results:")
 print(chi_result)
 ```
 
-```{r Gender vs Heart Attack Chi Squared}
+```{r Gender vs Heart Attack Chi Squared, eval=TRUE}
 # Create contingency table
 gender_table <- table(heart_data$Gender, heart_data$Outcome)
 print("Contingency Table:")
@@ -256,7 +251,39 @@ if(any(chi_gender$expected < 5)) {
 }
 ```
 
-```{r Stress Level, Gender, Education Level vs Heart Attack Statistics}
+```{r Stress Level, Gender, Education Level vs Heart Attack Multivariable Logistic Regression, eval=TRUE}
+
+df <- heart_data %>%
+  mutate(
+    HeartAttack = factor(
+      Outcome,
+      levels = c("No Heart Attack", "Heart Attack")
+    ),
+    
+    Gender = factor(Gender, levels = c("Male", "Female")),
+    
+    Education = factor(
+      EducationLevel,
+      levels = c("High School", "College", "Postgraduate")
+    ),
+    
+    Stress = as.numeric(StressLevel)
+  )
+
+# Logistic regression
+model <- glm(
+  HeartAttack ~ Gender + Education + Stress,
+  data = df,
+  family = binomial
+)
+
+summary(model)   
+
+# One overall p-value (likelihood ratio test)
+
+model_null <- glm(HeartAttack ~ 1, data = df, family = binomial)
+
+anova(model_null, model, test = "LRT")
 
 ```
 
@@ -264,8 +291,19 @@ if(any(chi_gender$expected < 5)) {
 # DISCUSSION
 
 
-## Interpretation 1
+## Interpretations
 
+### Stress Level vs Heart Attack
+Analysis showed no statistically significant association between stress levels and heart attack occurrence (p = 0.297). This suggests that variations in stress level are not strongly linked to the likelihood of experiencing a heart attack. However, this analysis does not account for the potential effects of chronic or long-term stress exposure.
+
+### Education Level vs Heart Attack
+Analysis showed no statistically significant relationship between education level and heart attack occurrence (p = 0.554). This indicates that differences in education level are not very likely to cause a change in how likely someone is to have a heart attack.
+
+### Gender Vs Heart Attack 
+Analysis showed no statistically significant association between gender and heart attack occurrence (p = 0.672). This suggests that being male or female does not meaningfully influence the likelihood of experiencing a heart attack.
+
+### Stress Level, Education Level, and Gender vs Heart Attack
+Analysis showed no statistically significant association between the combined effects of stress levels, education levels, and gender, and heart attack occurrence (p = 0.624). This indicates that, collectively, these factors do not significantly influence heart attack risk.
 
 # CONCLUSION
 
@@ -278,6 +316,7 @@ if(any(chi_gender$expected < 5)) {
 4. Panday, Ankush. “Heart Attack Prediction in United States.” Kaggle.com, 2025, www.kaggle.com/datasets/ankushpanday2/heart-attack-prediction-in-united-states/data. Accessed 6 Nov. 2025.
 5. Pérez-Jorge, David, et al. “Examining the Effects of Academic Stress on Student Well-Being in Higher Education.” Humanities and Social Sciences Communications, vol. 12, no. 1, 28 Mar. 2025, pp. 1–13, www.nature.com/articles/s41599-025-04698-y, https://doi.org/10.1057/s41599-025-04698-y.
 6. Tsao, Connie W., et al. “Heart Disease and Stroke Statistics—2023 Update: A Report from the American Heart Association.” Circulation, vol. 147, no. 8, 25 Jan. 2023, www.ahajournals.org/doi/10.1161/CIR.0000000000001123, https://doi.org/10.1161/cir.0000000000001123.
+7. ChatGPT. OpenAI, Used to help with troubleshooting and editing out any errors in code, along with helping with suggesting what type of plots would be best to use. 
 
 
 

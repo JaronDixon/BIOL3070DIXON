@@ -1,7 +1,7 @@
 Individual Portfolio
 ================
 Jaron Dixon
-2025-11-13
+2025-11-18
 
 - [ABSTRACT](#abstract)
 - [BACKGROUND](#background)
@@ -30,7 +30,7 @@ ability to strike a variety of different individuals, research has begun
 to try and predict risk factors or conditions that can cause an
 individual to be more susceptible to having a heart attack. Long-term or
 chronic stress can lead to higher levels of inflammation in the body
-which leads to more plague buildup in the arteries. (Katella, 2024)
+which leads to more plaque buildup in the arteries. (Katella, 2024)
 Additionally, stress also causes hormones such as adrenaline. (Katella,
 2024) Adrenaline increases mental alertness and the heart beats faster
 and raises blood pressure. (Katella, 2024) Prolonged stress leads to
@@ -211,11 +211,6 @@ ggplot(heart_data, aes(
 ## Statistical Analysis
 
 ``` r
-# Load necessary libraries
-library(ggplot2)
-library(broom)  # for tidy model output
-
-# Ensure Outcome is a factor with the correct reference level
 heart_data$Outcome <- factor(heart_data$Outcome, levels = c("No Heart Attack", "Heart Attack"))
 
 # Fit logistic regression model
@@ -260,7 +255,7 @@ print(odds_ratios)
 ``` r
 # Extract tidy model output for p-value
 model_stats <- tidy(stress_model)
-p_value <- model_stats$p.value[2]  # p-value for StressLevel
+p_value <- model_stats$p.value[2]  
 cat("P-value for Stress Level:", round(p_value, 4), "\n")
 ```
 
@@ -276,15 +271,11 @@ pred_data$PredictedProb <- predict(stress_model, newdata = pred_data, type = "re
 
 # Plot predicted probability curve with dotted points
 ggplot() +
-  # Add raw data points (dotted)
   geom_jitter(data = heart_data, aes(x = StressLevel, y = as.numeric(Outcome) - 1),
               width = 0.15, alpha = 0.5, shape = 21, color = "black", fill = "grey80") +
-  # Add predicted probability curve
   geom_line(data = pred_data, aes(x = StressLevel, y = PredictedProb),
             color = "red", size = 1.2) +
-  # Rug for distribution
   geom_rug(data = heart_data, aes(x = StressLevel), sides = "b", alpha = 0.3) +
-  # Labels
   labs(
     title = paste0(
       "Predicted Probability of Heart Attack by Stress Level\n",
@@ -393,6 +384,71 @@ if(any(chi_gender$expected < 5)) {
   print(fisher_result)
 }
 ```
+
+``` r
+df <- heart_data %>%
+  mutate(
+    HeartAttack = factor(
+      Outcome,
+      levels = c("No Heart Attack", "Heart Attack")
+    ),
+    
+    Gender = factor(Gender, levels = c("Male", "Female")),
+    
+    Education = factor(
+      EducationLevel,
+      levels = c("High School", "College", "Postgraduate")
+    ),
+    
+    Stress = as.numeric(StressLevel)
+  )
+
+# Logistic regression
+model <- glm(
+  HeartAttack ~ Gender + Education + Stress,
+  data = df,
+  family = binomial
+)
+
+summary(model)   
+```
+
+    ## 
+    ## Call:
+    ## glm(formula = HeartAttack ~ Gender + Education + Stress, family = binomial, 
+    ##     data = df)
+    ## 
+    ## Coefficients:
+    ##                       Estimate Std. Error z value Pr(>|z|)
+    ## (Intercept)            0.04815    0.17512   0.275    0.783
+    ## GenderFemale           0.05940    0.12685   0.468    0.640
+    ## EducationCollege       0.16533    0.15483   1.068    0.286
+    ## EducationPostgraduate  0.13782    0.15530   0.887    0.375
+    ## Stress                -0.02668    0.02451  -1.088    0.276
+    ## 
+    ## (Dispersion parameter for binomial family taken to be 1)
+    ## 
+    ##     Null deviance: 1384.5  on 998  degrees of freedom
+    ## Residual deviance: 1381.9  on 994  degrees of freedom
+    ## AIC: 1391.9
+    ## 
+    ## Number of Fisher Scoring iterations: 3
+
+``` r
+# One overall p-value (likelihood ratio test)
+
+model_null <- glm(HeartAttack ~ 1, data = df, family = binomial)
+
+anova(model_null, model, test = "LRT")
+```
+
+    ## Analysis of Deviance Table
+    ## 
+    ## Model 1: HeartAttack ~ 1
+    ## Model 2: HeartAttack ~ Gender + Education + Stress
+    ##   Resid. Df Resid. Dev Df Deviance Pr(>Chi)
+    ## 1       998     1384.5                     
+    ## 2       994     1381.8  4   2.6161    0.624
 
 # DISCUSSION
 

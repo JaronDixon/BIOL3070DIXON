@@ -1,7 +1,7 @@
 Warm-up mini-Report: Mosquito Blood Hosts in Salt Lake City, Utah
 ================
 Jaron Dixon
-2025-10-09
+2025-10-28
 
 - [ABSTRACT](#abstract)
 - [BACKGROUND](#background)
@@ -13,10 +13,8 @@ Jaron Dixon
   - [Analysis 1](#analysis-1)
   - [Anaylsis 2](#anaylsis-2)
 - [DISCUSSION](#discussion)
-  - [Interpretation - fill in
-    analysis](#interpretation---fill-in-analysis)
-  - [Interpretation - fill in
-    analysis/plot](#interpretation---fill-in-analysisplot)
+  - [Interpretation 1](#interpretation-1)
+  - [Interpretation 2](#interpretation-2)
 - [CONCLUSION](#conclusion)
 - [REFERENCES](#references)
 
@@ -305,7 +303,7 @@ Understanding which birds are most important for transmission helps
 explain how WNV persists in cities and can guide future mosquito control
 and public health efforts.
 
-## Interpretation - fill in analysis
+## Interpretation 1
 
 The bloodmeal results show that House Finches were a frequent host for
 mosquitoes in Salt Lake City. Locations with more finch blood meals also
@@ -318,7 +316,7 @@ also fed on and may contribute to WNV spread, but the link was not as
 strong as with House Finches. Together, this points to House Finches
 being a key species in maintaining local WNV transmission.
 
-## Interpretation - fill in analysis/plot
+## Interpretation 2
 
 The hotspot maps showed overlap between areas with many WNV-positive
 mosquito pools and areas with high numbers of House Finch blood meals.
@@ -345,7 +343,7 @@ surveillance and mosquito control efforts.
     Dis. 2003 Mar;9(3):311-22. <https://doi.org/10.3201/eid0903.020628>
 
 2.  ChatGPT. OpenAI, version Jan 2025. Used as a reference for functions
-    such as plot() and to correct syntax errors. Accessed 2025-10-09.
+    such as plot() and to correct syntax errors. Accessed 2025-10-28.
 
 3.  ChatGPT. OpenAI, version Jan 2025. Used to help suggest edits for
     text to make it sound better and correct grammatical errors.
