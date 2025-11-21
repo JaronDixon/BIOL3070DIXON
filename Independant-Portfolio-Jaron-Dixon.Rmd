@@ -41,7 +41,7 @@ Do certain factors cause a increased chance in having a heart attack?
 
 ## Hypothesis 
 
-If the person is male, have high stress level, and have a post-graduate education level, then we expect to see an increase in amounts of heart attacks.
+If the person is male, have high stress level, and have a post-graduate education level, then we expect to see an increase in likelihood of heart attacks.
   
 ## Prediction
 We expect to see people who are male, that have a post graduate degree, and who are under high stress to experience the highest chance of obtaining a heart attack.
@@ -53,26 +53,35 @@ The database chosen for this study was the Kaggle database, and the heart attack
 
 ## Figures
 
-```{r Heart Attack Vs Education Level lollipop Plot, eval=TRUE}
+```{r Heart Attack Vs Education Level Side by Side Bar Plot, eval=TRUE}
 
 # Summarize counts
 edu_counts <- heart_data %>%
   group_by(EducationLevel, Outcome) %>%
   summarise(count = n(), .groups = "drop")
 
-# lollipop chart
-ggplot(edu_counts, aes(x = EducationLevel, y = count, color = Outcome)) +
-  geom_segment(aes(x = EducationLevel, xend = EducationLevel, y = 0, yend = count), linewidth = 1.2) +
-  geom_point(size = 6) +
-  scale_color_manual(values = c("No Heart Attack" = "skyblue", "Heart Attack" = "tomato")) +
+# Ensure order of education levels
+edu_counts$EducationLevel <- factor(
+  edu_counts$EducationLevel,
+  levels = c("High School", "College", "Postgraduate")
+)
+
+# Side-by-side bar plot
+ggplot(edu_counts, aes(x = EducationLevel, y = count, fill = Outcome)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  scale_fill_manual(values = c(
+    "No Heart Attack" = "skyblue",
+    "Heart Attack" = "tomato"
+  )) +
   labs(
     title = "Heart Attack Outcomes by Education Level",
     x = "Education Level",
     y = "Count of Individuals",
-    color = "Heart Attack Outcome"
+    fill = "Heart Attack Outcome"
   ) +
   theme_minimal(base_size = 14) +
   theme(plot.title = element_text(hjust = 0.5, face = "bold"))
+
 ```
 
 ```{r Heart Attack vs StressLevel Violin Plot, eval=TRUE}
@@ -290,6 +299,9 @@ anova(model_null, model, test = "LRT")
 
 # DISCUSSION
 
+From the database we saw no statistical significance between the stress level an individual gave themselves and whether or not that person had a heart attack. This could be due to a number of different factors. Having an individual give their own assessment of stress might not be accurate to the stress they actually exhibit at the time. They could feel stress very casually or very intensely from person to person. Also, the stress level they gave does not reflect whether or not they have prolonged stress. They could be having a bad day that caused them to give a higher stress level on the day they were asked, but overall they do not have prolonged stress.
+
+When we looked at how education level could be tied to heart attacks, we found no statistically significant relationship between the two. A possible explanation of this is that education level and prolonged stress might not be as correlated as we thought. Even if school work leads to stress over a long period of time, having more education can lead to a more secure job environment and lower stress. 
 
 ## Interpretations
 
@@ -307,6 +319,7 @@ Analysis showed no statistically significant association between the combined ef
 
 # CONCLUSION
 
+In conclusion, we found no statistically significant data showing that heart attacks can be predicted by the lifestyle of being male, having a higher education, a higher stress level. 
 
 # REFERENCES     
 
