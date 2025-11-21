@@ -1,7 +1,7 @@
 Individual Portfolio
 ================
 Jaron Dixon
-2025-11-18
+2025-11-21
 
 - [ABSTRACT](#abstract)
 - [BACKGROUND](#background)
@@ -14,11 +14,35 @@ Jaron Dixon
   - [Figures](#figures)
   - [Statistical Analysis](#statistical-analysis)
 - [DISCUSSION](#discussion)
-  - [Interpretation 1](#interpretation-1)
+  - [Interpretations](#interpretations)
+    - [Stress Level vs Heart Attack](#stress-level-vs-heart-attack)
+    - [Education Level vs Heart
+      Attack](#education-level-vs-heart-attack)
+    - [Gender Vs Heart Attack](#gender-vs-heart-attack)
+    - [Stress Level, Education Level, and Gender vs Heart
+      Attack](#stress-level-education-level-and-gender-vs-heart-attack)
 - [CONCLUSION](#conclusion)
 - [REFERENCES](#references)
 
 # ABSTRACT
+
+Heart attacks affect approximately 805,000 Americans annually, showing
+the importance to understand factors that contribute to increased
+cardiovascular risk. Previous research indicates that chronic stress can
+heighten inflammation, promote arterial plaque buildup, and elevate
+blood pressure through increased hormone release, ultimately leading to
+more risk of cardiac events. Stress is particularly prevalent among
+individuals pursuing higher education, as both undergraduate and
+postgraduate students face academic, professional, and personal
+pressures that may contribute to long-term stress. Additionally, gender
+has been identified as a potential risk factor, with men experiencing
+heart attacks at roughly twice the rate of women, suggesting a possibly
+protective hormonal differences. Given these observations, this study
+examines how stress levels, educational status, and gender may interact
+to influence the likelihood of experiencing a heart attack. The results
+conclude no correlation between these factors and the presence of an
+individual having a heart attack. This continues our search to find a
+potential risk factor for heart attacks.
 
 # BACKGROUND
 
@@ -66,8 +90,8 @@ Do certain factors cause a increased chance in having a heart attack?
 ## Hypothesis
 
 If the person is male, have high stress level, and have a post-graduate
-education level, then we expect to see an increase in amounts of heart
-attacks.
+education level, then we expect to see an increase in likelihood of
+heart attacks.
 
 ## Prediction
 
@@ -76,6 +100,19 @@ and who are under high stress to experience the highest chance of
 obtaining a heart attack.
 
 # Methods
+
+The database chosen for this study was the Kaggle database, and the
+heart attack prediction set was the one chosen for this study. It was
+chosen because it had enough entries for our purposes and many variables
+to test. Once the variables were chosen, an excel spreadsheet was
+created to hold all the data. Models were made for each kind of test
+based on the type of data by testing variables against the outcomes of
+heart attack outcome. After all the variables were tested individually,
+they were then all tested at the same time vs heart attack outcome to
+test for a correlation between all of them. After which each model was
+examined visually and statistically based on the type of model created
+(ANOVA, linear model etc.) to determine the validity and significance of
+them.
 
 # Analyses
 
@@ -87,22 +124,30 @@ edu_counts <- heart_data %>%
   group_by(EducationLevel, Outcome) %>%
   summarise(count = n(), .groups = "drop")
 
-# lollipop chart
-ggplot(edu_counts, aes(x = EducationLevel, y = count, color = Outcome)) +
-  geom_segment(aes(x = EducationLevel, xend = EducationLevel, y = 0, yend = count), linewidth = 1.2) +
-  geom_point(size = 6) +
-  scale_color_manual(values = c("No Heart Attack" = "skyblue", "Heart Attack" = "tomato")) +
+# Ensure order of education levels
+edu_counts$EducationLevel <- factor(
+  edu_counts$EducationLevel,
+  levels = c("High School", "College", "Postgraduate")
+)
+
+# Side-by-side bar plot
+ggplot(edu_counts, aes(x = EducationLevel, y = count, fill = Outcome)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  scale_fill_manual(values = c(
+    "No Heart Attack" = "skyblue",
+    "Heart Attack" = "tomato"
+  )) +
   labs(
     title = "Heart Attack Outcomes by Education Level",
     x = "Education Level",
     y = "Count of Individuals",
-    color = "Heart Attack Outcome"
+    fill = "Heart Attack Outcome"
   ) +
   theme_minimal(base_size = 14) +
   theme(plot.title = element_text(hjust = 0.5, face = "bold"))
 ```
 
-![](Independant-Portfolio-Jaron-Dixon_files/figure-gfm/Heart%20Attack%20Vs%20Education%20Level%20lollipop%20Plot-1.png)<!-- -->
+![](Independant-Portfolio-Jaron-Dixon_files/figure-gfm/Heart%20Attack%20Vs%20Education%20Level%20Side%20by%20Side%20Bar%20Plot-1.png)<!-- -->
 
 ``` r
 ggplot(heart_data, aes(x = Outcome, y = StressLevel, fill = Outcome)) +
@@ -132,7 +177,7 @@ ggplot(heart_data, aes(x = StressLevel, y = Outcome, fill = Outcome)) +
     y = "Heart Attack Outcome",
     fill = "Outcome"
   ) +
-  theme_minimal(base_size = 14) +
+  theme_minimal(base_size = 13) +
   theme(
     plot.title = element_text(hjust = 0.5, face = "bold"),
     legend.position = "none",
@@ -200,7 +245,7 @@ ggplot(heart_data, aes(
     alpha = "Heart Attack Outcome",
     shape = "Gender"
   ) +
-  theme_minimal(base_size = 14) +
+  theme_minimal(base_size = 10) +
   theme(
     plot.title = element_text(hjust = 0.5, face = "bold")
   )
@@ -452,9 +497,60 @@ anova(model_null, model, test = "LRT")
 
 # DISCUSSION
 
-## Interpretation 1
+From the database we saw no statistical significance between the stress
+level an individual gave themselves and whether or not that person had a
+heart attack. This could be due to a number of different factors. Having
+an individual give their own assessment of stress might not be accurate
+to the stress they actually exhibit at the time. They could feel stress
+very casually or very intensely from person to person. Also, the stress
+level they gave does not reflect whether or not they have prolonged
+stress. They could be having a bad day that caused them to give a higher
+stress level on the day they were asked, but overall they do not have
+prolonged stress.
+
+When we looked at how education level could be tied to heart attacks, we
+found no statistically significant relationship between the two. A
+possible explanation of this is that education level and prolonged
+stress might not be as correlated as we thought. Even if school work
+leads to stress over a long period of time, having more education can
+lead to a more secure job environment and lower stress.
+
+## Interpretations
+
+### Stress Level vs Heart Attack
+
+Analysis showed no statistically significant association between stress
+levels and heart attack occurrence (p = 0.297). This suggests that
+variations in stress level are not strongly linked to the likelihood of
+experiencing a heart attack. However, this analysis does not account for
+the potential effects of chronic or long-term stress exposure.
+
+### Education Level vs Heart Attack
+
+Analysis showed no statistically significant relationship between
+education level and heart attack occurrence (p = 0.554). This indicates
+that differences in education level are not very likely to cause a
+change in how likely someone is to have a heart attack.
+
+### Gender Vs Heart Attack
+
+Analysis showed no statistically significant association between gender
+and heart attack occurrence (p = 0.672). This suggests that being male
+or female does not meaningfully influence the likelihood of experiencing
+a heart attack.
+
+### Stress Level, Education Level, and Gender vs Heart Attack
+
+Analysis showed no statistically significant association between the
+combined effects of stress levels, education levels, and gender, and
+heart attack occurrence (p = 0.624). This indicates that, collectively,
+these factors do not significantly influence heart attack risk.
 
 # CONCLUSION
+
+In conclusion, we found no statistically significant data showing that
+heart attacks can be predicted by the lifestyle of being male, having a
+higher education, a higher stress level.
 
 # REFERENCES
 
@@ -482,3 +578,6 @@ anova(model_null, model, test = "LRT")
     vol. 147, no. 8, 25 Jan. 2023,
     www.ahajournals.org/doi/10.1161/CIR.0000000000001123,
     <https://doi.org/10.1161/cir.0000000000001123>.
+6.  ChatGPT. OpenAI, Used to help with troubleshooting and editing out
+    any errors in code, along with helping with suggesting what type of
+    plots would be best to use.
