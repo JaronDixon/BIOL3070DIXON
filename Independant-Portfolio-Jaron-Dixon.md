@@ -1,7 +1,7 @@
 Individual Portfolio
 ================
 Jaron Dixon
-2025-11-21
+2025-12-02
 
 - [ABSTRACT](#abstract)
 - [BACKGROUND](#background)
@@ -10,10 +10,9 @@ Jaron Dixon
   - [Hypothesis](#hypothesis)
   - [Prediction](#prediction)
 - [Methods](#methods)
-- [Analyses](#analyses)
+- [Results](#results)
   - [Figures](#figures)
-  - [Statistical Analysis](#statistical-analysis)
-- [DISCUSSION](#discussion)
+  - [Statistical Analyses](#statistical-analyses)
   - [Interpretations](#interpretations)
     - [Stress Level vs Heart Attack](#stress-level-vs-heart-attack)
     - [Education Level vs Heart
@@ -21,6 +20,7 @@ Jaron Dixon
     - [Gender Vs Heart Attack](#gender-vs-heart-attack)
     - [Stress Level, Education Level, and Gender vs Heart
       Attack](#stress-level-education-level-and-gender-vs-heart-attack)
+- [DISCUSSION](#discussion)
 - [CONCLUSION](#conclusion)
 - [REFERENCES](#references)
 
@@ -46,36 +46,36 @@ potential risk factor for heart attacks.
 
 # BACKGROUND
 
-Every year about 805,000 Americans have a heart attack. (Tsao et al.,
-2023) A heart attack can pose pain from a mild discomfort to severe
-crushing pain. (Kulkarni, 2025) This health risk has become like a
+Every year about 805,000 Americans have a heart attack (Tsao et al.,
+2023). A heart attack can pose pain from a mild discomfort to severe
+crushing pain (Kulkarni, 2025). This health risk has become like a
 ticking bomb being able to strike anyone. With this disease that has the
 ability to strike a variety of different individuals, research has begun
 to try and predict risk factors or conditions that can cause an
 individual to be more susceptible to having a heart attack. Long-term or
 chronic stress can lead to higher levels of inflammation in the body
-which leads to more plaque buildup in the arteries. (Katella, 2024)
-Additionally, stress also causes hormones such as adrenaline. (Katella,
-2024) Adrenaline increases mental alertness and the heart beats faster
-and raises blood pressure. (Katella, 2024) Prolonged stress leads to
+which leads to more plaque buildup in the arteries (Katella, 2024).
+Additionally, stress also causes hormones such as adrenaline (Katella,
+2024). Adrenaline increases mental alertness and the heart beats faster
+and raises blood pressure (Katella, 2024). Prolonged stress leads to
 heart damage.
 
 With this in mind we turn to what might cause an individual to have
 prolonged stress. Specifically, undergraduate students often experience
-stress related to adapting to higher education and managing coursework.
-(Pérez-Jorge, 2025) Postgraduate students also exhibit stress about
+stress related to adapting to higher education and managing coursework
+(Pérez-Jorge, 2025). Postgraduate students also exhibit stress about
 advanced research, thesis completion, and balancing academic work and
-professional responsibilities. (Pérez-Jorge, 2025) When it comes to
+professional responsibilities (Pérez-Jorge, 2025). When it comes to
 pursuing higher education there are a lot of stressful responsibilities
 for individuals. This could be a cause of having a risk of heart attacks
 because of the impact of the stress on the body.
 
 Another factor that might contribute to a higher risk of heart attacks
 is gender. Researchers have found that men are twice as likely to have a
-heart attack than women. (Harvard Health Publishing, 2016) There is also
+heart attack than women (Harvard Health Publishing, 2016). There is also
 some suspicion that hormones in women before menopause cause more
-defense for women against heart attacks. (Harvard Health Publishing,
-2016)
+defense for women against heart attacks (Harvard Health Publishing,
+2016).
 
 Knowing this information brings a lot of question of how much factors
 like stress, gender, or education could lead to an individual being more
@@ -101,20 +101,29 @@ obtaining a heart attack.
 
 # Methods
 
-The database chosen for this study was the Kaggle database, and the
-heart attack prediction set was the one chosen for this study. It was
-chosen because it had enough entries for our purposes and many variables
-to test. Once the variables were chosen, an excel spreadsheet was
-created to hold all the data. Models were made for each kind of test
-based on the type of data by testing variables against the outcomes of
-heart attack outcome. After all the variables were tested individually,
-they were then all tested at the same time vs heart attack outcome to
-test for a correlation between all of them. After which each model was
-examined visually and statistically based on the type of model created
-(ANOVA, linear model etc.) to determine the validity and significance of
-them.
+The data for this study were taken from the Kaggle Heart Attack
+Prediction dataset and imported into R for analysis. The variables used
+included the following: StressLevel, Gender, EducationLevel, and Outcome
+(heart attack vs. no heart attack). Each variable was cleaned and
+converted into the appropriate format for statistical testing.
 
-# Analyses
+Depending on the type of data being compared, different tests were
+utilized accordingly. In order to see if StressLevel was related to
+heart attack outcome, a logistic regression was performed because it is
+appropriate for a numeric predictor and a binary outcome. Chi-square
+tests were used to test whether EducationLevel or Gender were associated
+with heart attack occurrence since these variables are categorical.
+Fisher’s Exact Test was used instead when expected cell counts were too
+small for Chi-square assumptions.
+
+After individually testing each variable, a multivariable logistic
+regression was run to consider the combined impacts StressLevel, Gender,
+and EducationLevel have on heart attack occurrence. This allowed us to
+see whether these variables, taken together, improved the prediction of
+heart attack risk. Bar plots, violin plots, jitter plots, and heat maps
+were created to support the statistical results.
+
+# Results
 
 ## Figures
 
@@ -134,8 +143,8 @@ edu_counts$EducationLevel <- factor(
 ggplot(edu_counts, aes(x = EducationLevel, y = count, fill = Outcome)) +
   geom_col(position = position_dodge(width = 0.8), width = 0.7) +
   scale_fill_manual(values = c(
-    "No Heart Attack" = "skyblue",
-    "Heart Attack" = "tomato"
+    "No Heart Attack" = "lightblue3",
+    "Heart Attack" = "indianred2"
   )) +
   labs(
     title = "Heart Attack Outcomes by Education Level",
@@ -170,7 +179,7 @@ ggplot(heart_data, aes(x = Outcome, y = StressLevel, fill = Outcome)) +
 ``` r
 ggplot(heart_data, aes(x = StressLevel, y = Outcome, fill = Outcome)) +
   geom_density_ridges(alpha = 0.7, color = "black", scale = 1) +
-  scale_fill_manual(values = c("No Heart Attack" = "skyblue", "Heart Attack" = "tomato")) +
+  scale_fill_manual(values = c("No Heart Attack" = "lightblue3", "Heart Attack" = "indianred2")) +
   labs(
     title = "Distribution of Stress Levels by Heart Attack Outcome",
     x = "Stress Level (1–9)",
@@ -188,7 +197,7 @@ ggplot(heart_data, aes(x = StressLevel, y = Outcome, fill = Outcome)) +
 
     ## Picking joint bandwidth of 0.674
 
-![](Independant-Portfolio-Jaron-Dixon_files/figure-gfm/Stress%20vs%20Heart%20Attack%20Ridge%20Plot-1.png)<!-- -->
+![](Independant-Portfolio-Jaron-Dixon_files/figure-gfm/Stress%20vs%20Heart%20Attack%20Ridge%20Plot%20UNUSED-1.png)<!-- -->
 
 ``` r
 # Summarize counts
@@ -198,7 +207,7 @@ gender_counts <- heart_data %>%
 
 #Heat map
 ggplot(gender_counts, aes(x = Gender, y = Outcome, fill = count)) +
-  geom_tile(color = "white", size = 0.8) +  # white borders between tiles
+  geom_tile(color = "white", linewidth = 0.8) +  # white borders between tiles
   geom_text(aes(label = count), color = "white", size = 6, fontface = "bold") +
   scale_fill_viridis(option = "C", direction = -1) +  # smooth and modern gradient
   labs(
@@ -216,12 +225,6 @@ ggplot(gender_counts, aes(x = Gender, y = Outcome, fill = count)) +
     legend.text = element_text(size = 12)
   )
 ```
-
-    ## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-    ## ℹ Please use `linewidth` instead.
-    ## This warning is displayed once every 8 hours.
-    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
-    ## generated.
 
 ![](Independant-Portfolio-Jaron-Dixon_files/figure-gfm/Gender%20vs%20Heart%20Attack%20Heat%20Plot-1.png)<!-- -->
 
@@ -253,7 +256,7 @@ ggplot(heart_data, aes(
 
 ![](Independant-Portfolio-Jaron-Dixon_files/figure-gfm/Stress%20Levels,%20Education%20Level,%20Gender%20and%20Heart%20Attack%20combined%20plot-1.png)<!-- -->
 
-## Statistical Analysis
+## Statistical Analyses
 
 ``` r
 heart_data$Outcome <- factor(heart_data$Outcome, levels = c("No Heart Attack", "Heart Attack"))
@@ -331,6 +334,12 @@ ggplot() +
   ) +
   theme_minimal(base_size = 14)
 ```
+
+    ## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+    ## ℹ Please use `linewidth` instead.
+    ## This warning is displayed once every 8 hours.
+    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+    ## generated.
 
 ![](Independant-Portfolio-Jaron-Dixon_files/figure-gfm/Stress%20Levels%20vs%20Heart%20Attack%20Logistic%20Regression-1.png)<!-- -->
 
@@ -495,26 +504,6 @@ anova(model_null, model, test = "LRT")
     ## 1       998     1384.5                     
     ## 2       994     1381.8  4   2.6161    0.624
 
-# DISCUSSION
-
-From the database we saw no statistical significance between the stress
-level an individual gave themselves and whether or not that person had a
-heart attack. This could be due to a number of different factors. Having
-an individual give their own assessment of stress might not be accurate
-to the stress they actually exhibit at the time. They could feel stress
-very casually or very intensely from person to person. Also, the stress
-level they gave does not reflect whether or not they have prolonged
-stress. They could be having a bad day that caused them to give a higher
-stress level on the day they were asked, but overall they do not have
-prolonged stress.
-
-When we looked at how education level could be tied to heart attacks, we
-found no statistically significant relationship between the two. A
-possible explanation of this is that education level and prolonged
-stress might not be as correlated as we thought. Even if school work
-leads to stress over a long period of time, having more education can
-lead to a more secure job environment and lower stress.
-
 ## Interpretations
 
 ### Stress Level vs Heart Attack
@@ -546,11 +535,48 @@ combined effects of stress levels, education levels, and gender, and
 heart attack occurrence (p = 0.624). This indicates that, collectively,
 these factors do not significantly influence heart attack risk.
 
+# DISCUSSION
+
+Limitations in the dataset, rather than the true relationship of these
+factors with heart attack risk, probably play a greater role in the
+nonsignificant findings of this study. The stress scores used in the
+analyses were self-reported and taken at only one moment in time, which
+likely does not reflect long-term or chronic stress-the type most
+commonly linked to heart disease. Because of this, the stress measure
+may not accurately capture the kind of stress that affects
+cardiovascular health.
+
+On the other hand, education level also may not demonstrate a clear
+pattern, because its association with heart health is complex. Higher
+levels of education may increase stressors but, in return, bring about
+better means of acquiring resources, lower long-term financial stress,
+and superior healthcare that may balance out the negative effect.
+
+Again, gender may not show strong patterns in this dataset if either the
+sample is limited, or other important factors such as age or medical
+history are not included. Gender differences in heart attack risk
+usually depend on these additional variables.
+
+The findings, therefore, must be interpreted with caution. For instance,
+the dataset may not provide sufficient information or detail for a full
+assessment of how stress, gender, and education affect heart attack
+risk. More comprehensive data would very likely give a fuller picture.
+
 # CONCLUSION
 
-In conclusion, we found no statistically significant data showing that
-heart attacks can be predicted by the lifestyle of being male, having a
-higher education, a higher stress level.
+In the present study, we found no evidence that stress level, gender,
+and education level significantly predict heart attack occurrence in
+this dataset. These findings should be interpreted with caution, since
+the measures available-especially the rating of stress-may not
+adequately reflect the long-term factors that determine cardiovascular
+health.
+
+Future research should also involve more specific clinical variables
+like age, cholesterol, blood pressure, and medical history, while also
+using more valid chronic-stress measures. The inclusion of a larger,
+more varied sample would also make it clearer whether these factors
+truly have little impact or whether the limitations of the present
+dataset prevented meaningful patterns from being found.
 
 # REFERENCES
 
